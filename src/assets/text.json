@@ -1,0 +1,46 @@
+{
+  "1": [
+    {
+      "word": "Bienenschwärme",
+      "paragraph": 1,
+      "type": "Nomen"
+    },
+    {
+      "word": "erzeugen",
+      "paragraph": 1,
+      "type": "Verb"
+    },
+    {
+      "word": "elektrische",
+      "paragraph": 1,
+      "type": "adjektiv"
+    },
+    {
+      "word": "Ladung",
+      "paragraph": 1,
+      "type": "Nomen"
+    },
+    {
+      "word": "Die",
+      "paragraph": 1,
+      "type": "Präposition"
+    }
+  ],
+  "2": [
+    {
+      "word": "Wenn",
+      "paragraph": 2,
+      "type": "Präposition"
+    },
+    {
+      "word": "sie",
+      "paragraph": 2,
+      "type": "Präposition"
+    },
+    {
+      "word": "wollen",
+      "paragraph": 2,
+      "type": "Verb"
+    }
+  ]
+}
