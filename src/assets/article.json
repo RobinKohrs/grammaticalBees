@@ -1,0 +1,3180 @@
+{
+  "header": {
+    "htmlType": "h1",
+    "position": "header",
+    "words": [
+      {
+        "word": "Bienenschwärme",
+        "type": "NOUN",
+        "lemma": "Bienenschwärme"
+      },
+      {
+        "word": "erzeugen",
+        "type": "VERB",
+        "lemma": "erzeugen"
+      },
+      {
+        "word": "elektrische",
+        "type": "ADJ",
+        "lemma": "elektrisch"
+      },
+      {
+        "word": "Ladung",
+        "type": "NOUN",
+        "lemma": "Ladung"
+      }
+    ]
+  },
+  "subheader": {
+    "htmlType": "p",
+    "position": "subheader",
+    "words": [
+      {
+        "word": "Eine",
+        "type": "DET",
+        "lemma": "ein"
+      },
+      {
+        "word": "Studie",
+        "type": "NOUN",
+        "lemma": "Studie"
+      },
+      {
+        "word": "aus",
+        "type": "ADP",
+        "lemma": "aus"
+      },
+      {
+        "word": "England",
+        "type": "PROPN",
+        "lemma": "England"
+      },
+      {
+        "word": "zeigt",
+        "type": "VERB",
+        "lemma": "zeigen"
+      },
+      {
+        "word": ":",
+        "type": "PUNCT",
+        "lemma": "--"
+      },
+      {
+        "word": "Bienen-",
+        "type": "X",
+        "lemma": "Biene"
+      },
+      {
+        "word": "und",
+        "type": "CCONJ",
+        "lemma": "und"
+      },
+      {
+        "word": "andere",
+        "type": "ADJ",
+        "lemma": "anderer"
+      },
+      {
+        "word": "Insektenschwärme",
+        "type": "NOUN",
+        "lemma": "Insektenschwärme"
+      },
+      {
+        "word": "erzeugen",
+        "type": "VERB",
+        "lemma": "erzeugen"
+      },
+      {
+        "word": "elektrische",
+        "type": "ADJ",
+        "lemma": "elektrisch"
+      },
+      {
+        "word": "Ladung",
+        "type": "NOUN",
+        "lemma": "Ladung"
+      },
+      {
+        "word": "–",
+        "type": "PUNCT",
+        "lemma": "--"
+      },
+      {
+        "word": "ähnlich",
+        "type": "ADV",
+        "lemma": "ähnlich"
+      },
+      {
+        "word": "wie",
+        "type": "ADP",
+        "lemma": "wie"
+      },
+      {
+        "word": "Gewitterwolken",
+        "type": "NOUN",
+        "lemma": "Gewitterwolke"
+      },
+      {
+        "word": ".",
+        "type": "PUNCT",
+        "lemma": "--"
+      },
+      {
+        "word": "Das",
+        "type": "PRON",
+        "lemma": "der"
+      },
+      {
+        "word": "könnte",
+        "type": "AUX",
+        "lemma": "können"
+      },
+      {
+        "word": "nicht",
+        "type": "PART",
+        "lemma": "nicht"
+      },
+      {
+        "word": "nur",
+        "type": "ADV",
+        "lemma": "nur"
+      },
+      {
+        "word": "den",
+        "type": "DET",
+        "lemma": "der"
+      },
+      {
+        "word": "Bienen",
+        "type": "NOUN",
+        "lemma": "Bienen"
+      },
+      {
+        "word": "helfen",
+        "type": "VERB",
+        "lemma": "helfen"
+      },
+      {
+        "word": ",",
+        "type": "PUNCT",
+        "lemma": "--"
+      },
+      {
+        "word": "Nektar",
+        "type": "NOUN",
+        "lemma": "Nektar"
+      },
+      {
+        "word": "zu",
+        "type": "PART",
+        "lemma": "zu"
+      },
+      {
+        "word": "finden",
+        "type": "VERB",
+        "lemma": "finden"
+      },
+      {
+        "word": ",",
+        "type": "PUNCT",
+        "lemma": "--"
+      },
+      {
+        "word": "sondern",
+        "type": "CCONJ",
+        "lemma": "sondern"
+      },
+      {
+        "word": "auch",
+        "type": "ADV",
+        "lemma": "auch"
+      },
+      {
+        "word": "zum",
+        "type": "ADP",
+        "lemma": "zu"
+      },
+      {
+        "word": "Transport",
+        "type": "NOUN",
+        "lemma": "Transport"
+      },
+      {
+        "word": "von",
+        "type": "ADP",
+        "lemma": "von"
+      },
+      {
+        "word": "Wüstenstaub",
+        "type": "NOUN",
+        "lemma": "Wüstenstaub"
+      },
+      {
+        "word": "über",
+        "type": "ADP",
+        "lemma": "über"
+      },
+      {
+        "word": "viele",
+        "type": "DET",
+        "lemma": "vieler"
+      },
+      {
+        "word": "Kilometer",
+        "type": "NOUN",
+        "lemma": "Kilometer"
+      },
+      {
+        "word": "beitragen",
+        "type": "VERB",
+        "lemma": "beitragen"
+      },
+      {
+        "word": ".",
+        "type": "PUNCT",
+        "lemma": "--"
+      }
+    ]
+  },
+  "body": {
+    "paragraph_1": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Neben",
+          "type": "ADP",
+          "lemma": "neben"
+        },
+        {
+          "word": "einem",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Magnetfeld",
+          "type": "NOUN",
+          "lemma": "Magnetfeld"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "an",
+          "type": "ADP",
+          "lemma": "an"
+        },
+        {
+          "word": "dem",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "sich",
+          "type": "PRON",
+          "lemma": "sich"
+        },
+        {
+          "word": "beispielsweise",
+          "type": "ADV",
+          "lemma": "beispielsweise"
+        },
+        {
+          "word": "Vögel",
+          "type": "NOUN",
+          "lemma": "Vögel"
+        },
+        {
+          "word": "orientieren",
+          "type": "VERB",
+          "lemma": "orientieren"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "um",
+          "type": "SCONJ",
+          "lemma": "um"
+        },
+        {
+          "word": "ihre",
+          "type": "DET",
+          "lemma": "ihr"
+        },
+        {
+          "word": "Winterquartiere",
+          "type": "NOUN",
+          "lemma": "Winterquartiere"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "finden",
+          "type": "VERB",
+          "lemma": "finden"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "hat",
+          "type": "AUX",
+          "lemma": "haben"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Erde",
+          "type": "NOUN",
+          "lemma": "Erde"
+        },
+        {
+          "word": "auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "ein",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "elektrostatisches",
+          "type": "ADJ",
+          "lemma": "elektrostatisch"
+        },
+        {
+          "word": "Feld",
+          "type": "NOUN",
+          "lemma": "Feld"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Global",
+          "type": "ADV",
+          "lemma": "Global"
+        },
+        {
+          "word": "gesehen",
+          "type": "VERB",
+          "lemma": "sehen"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Erdoberfläche",
+          "type": "NOUN",
+          "lemma": "Erdoberfläche"
+        },
+        {
+          "word": "negativ",
+          "type": "ADV",
+          "lemma": "negativ"
+        },
+        {
+          "word": "geladen",
+          "type": "VERB",
+          "lemma": "laden"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Ionosphäre",
+          "type": "NOUN",
+          "lemma": "Ionosphär"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "die",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "ungefähr",
+          "type": "ADV",
+          "lemma": "ungefähr"
+        },
+        {
+          "word": "60",
+          "type": "NUM",
+          "lemma": "60"
+        },
+        {
+          "word": "Kilometer",
+          "type": "NOUN",
+          "lemma": "Kilometer"
+        },
+        {
+          "word": "Höhe",
+          "type": "NOUN",
+          "lemma": "Höhe"
+        },
+        {
+          "word": "beginnt",
+          "type": "VERB",
+          "lemma": "beginnen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "positiv",
+          "type": "ADV",
+          "lemma": "positiv"
+        },
+        {
+          "word": "geladen",
+          "type": "VERB",
+          "lemma": "laden"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Wetterereignisse",
+          "type": "NOUN",
+          "lemma": "Wetterereignis"
+        },
+        {
+          "word": "wie",
+          "type": "ADP",
+          "lemma": "wie"
+        },
+        {
+          "word": "Wolkenbildung",
+          "type": "NOUN",
+          "lemma": "Wolkenbildung"
+        },
+        {
+          "word": "oder",
+          "type": "CCONJ",
+          "lemma": "oder"
+        },
+        {
+          "word": "Blitzeinschläge",
+          "type": "NOUN",
+          "lemma": "Blitzeinschlag"
+        },
+        {
+          "word": "sowie",
+          "type": "CCONJ",
+          "lemma": "sowie"
+        },
+        {
+          "word": "viele",
+          "type": "DET",
+          "lemma": "vieler"
+        },
+        {
+          "word": "andere",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Faktoren",
+          "type": "NOUN",
+          "lemma": "Faktor"
+        },
+        {
+          "word": "können",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": "das",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Feld",
+          "type": "NOUN",
+          "lemma": "Feld"
+        },
+        {
+          "word": "aber",
+          "type": "ADV",
+          "lemma": "aber"
+        },
+        {
+          "word": "beeinflussen",
+          "type": "VERB",
+          "lemma": "beeinflussen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "paragraph_2": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Manchmal",
+          "type": "ADV",
+          "lemma": "manchmal"
+        },
+        {
+          "word": "finden",
+          "type": "VERB",
+          "lemma": "finden"
+        },
+        {
+          "word": "Wissenschaftler",
+          "type": "NOUN",
+          "lemma": "Wissenschaftler"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "Wissenschaftlerinnen",
+          "type": "NOUN",
+          "lemma": "Wissenschaftlerinn"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "die",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "atmosphärische",
+          "type": "ADJ",
+          "lemma": "atmosphärisch"
+        },
+        {
+          "word": "Elektrizität",
+          "type": "NOUN",
+          "lemma": "Elektrizität"
+        },
+        {
+          "word": "messen",
+          "type": "VERB",
+          "lemma": "messen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dabei",
+          "type": "ADV",
+          "lemma": "dabei"
+        },
+        {
+          "word": "Anomalien",
+          "type": "PROPN",
+          "lemma": "Anomalien"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Ein",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Forschungsteam",
+          "type": "NOUN",
+          "lemma": "Forschungsteam"
+        },
+        {
+          "word": "aus",
+          "type": "ADP",
+          "lemma": "aus"
+        },
+        {
+          "word": "England",
+          "type": "PROPN",
+          "lemma": "England"
+        },
+        {
+          "word": "fand",
+          "type": "VERB",
+          "lemma": "finden"
+        },
+        {
+          "word": "nun",
+          "type": "ADV",
+          "lemma": "nun"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "mögliche",
+          "type": "ADJ",
+          "lemma": "möglich"
+        },
+        {
+          "word": "Erklärung",
+          "type": "NOUN",
+          "lemma": "Erklärung"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "was",
+          "type": "PRON",
+          "lemma": "wer"
+        },
+        {
+          "word": "für",
+          "type": "ADP",
+          "lemma": "für"
+        },
+        {
+          "word": "diese",
+          "type": "DET",
+          "lemma": "dieser"
+        },
+        {
+          "word": "Anomalien",
+          "type": "PROPN",
+          "lemma": "Anomali"
+        },
+        {
+          "word": "verantwortlich",
+          "type": "ADV",
+          "lemma": "verantwortlich"
+        },
+        {
+          "word": "sein",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "könnte",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Ihre",
+          "type": "DET",
+          "lemma": "ihr"
+        },
+        {
+          "word": "Ergebnisse",
+          "type": "NOUN",
+          "lemma": "Ergebnis"
+        },
+        {
+          "word": "veröffentlichten",
+          "type": "VERB",
+          "lemma": "veröffentlichen"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": "im",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "Fachmagazin",
+          "type": "NOUN",
+          "lemma": "Fachmagazin"
+        },
+        {
+          "word": "„",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "iScience",
+          "type": "X",
+          "lemma": "iScience"
+        },
+        {
+          "word": "“",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "„",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Mit",
+          "type": "ADP",
+          "lemma": "mit"
+        },
+        {
+          "word": "unserer",
+          "type": "DET",
+          "lemma": "unser"
+        },
+        {
+          "word": "Studie",
+          "type": "NOUN",
+          "lemma": "Studie"
+        },
+        {
+          "word": "haben",
+          "type": "AUX",
+          "lemma": "haben"
+        },
+        {
+          "word": "wir",
+          "type": "PRON",
+          "lemma": "wir"
+        },
+        {
+          "word": "gezeigt",
+          "type": "VERB",
+          "lemma": "zeigen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "es",
+          "type": "PRON",
+          "lemma": "es"
+        },
+        {
+          "word": "auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "wichtig",
+          "type": "ADV",
+          "lemma": "wichtig"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "den",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Einfluss",
+          "type": "NOUN",
+          "lemma": "Einfluss"
+        },
+        {
+          "word": "biologischer",
+          "type": "ADJ",
+          "lemma": "biologisch"
+        },
+        {
+          "word": "Faktoren",
+          "type": "NOUN",
+          "lemma": "Faktor"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "berücksichtigen",
+          "type": "VERB",
+          "lemma": "berücksichtigen"
+        },
+        {
+          "word": "“",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "so",
+          "type": "ADV",
+          "lemma": "so"
+        },
+        {
+          "word": "Liam",
+          "type": "PROPN",
+          "lemma": "Liam"
+        },
+        {
+          "word": "O",
+          "type": "PROPN",
+          "lemma": "O"
+        },
+        {
+          "word": "’",
+          "type": "PROPN",
+          "lemma": "’"
+        },
+        {
+          "word": "Reilly",
+          "type": "X",
+          "lemma": "Reilly"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "University",
+          "type": "PROPN",
+          "lemma": "University"
+        },
+        {
+          "word": "of",
+          "type": "PROPN",
+          "lemma": "of"
+        },
+        {
+          "word": "Bristol",
+          "type": "PROPN",
+          "lemma": "Bristol"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Er",
+          "type": "PRON",
+          "lemma": "er"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "anderen",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Studienautoren",
+          "type": "NOUN",
+          "lemma": "Studienautor"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "-autorinnen",
+          "type": "NOUN",
+          "lemma": "autorinnen"
+        },
+        {
+          "word": "untersuchten",
+          "type": "VERB",
+          "lemma": "untersuchen"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "Bienen-",
+          "type": "X",
+          "lemma": "Biene"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "anderen",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Insektenschwärmen",
+          "type": "NOUN",
+          "lemma": "Insektenschwärm"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "h2_1": {
+      "htmlType": "h2",
+      "position": "body",
+      "words": [
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "durch",
+          "type": "ADP",
+          "lemma": "durch"
+        },
+        {
+          "word": "Luftreibung",
+          "type": "NOUN",
+          "lemma": "Luftreibung"
+        },
+        {
+          "word": "positiv",
+          "type": "ADV",
+          "lemma": "positiv"
+        },
+        {
+          "word": "geladen",
+          "type": "VERB",
+          "lemma": "laden"
+        }
+      ]
+    },
+    "paragraph_3": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Wird",
+          "type": "AUX",
+          "lemma": "werden"
+        },
+        {
+          "word": "es",
+          "type": "PRON",
+          "lemma": "es"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "einem",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Bienenstock",
+          "type": "NOUN",
+          "lemma": "Bienenstock"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "voll",
+          "type": "ADV",
+          "lemma": "voll"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "kommt",
+          "type": "VERB",
+          "lemma": "kommen"
+        },
+        {
+          "word": "es",
+          "type": "PRON",
+          "lemma": "es"
+        },
+        {
+          "word": "vor",
+          "type": "ADP",
+          "lemma": "vor"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Bienenkönigin",
+          "type": "NOUN",
+          "lemma": "Bienenkönigin"
+        },
+        {
+          "word": "zusammen",
+          "type": "ADV",
+          "lemma": "zusammen"
+        },
+        {
+          "word": "mit",
+          "type": "ADP",
+          "lemma": "mit"
+        },
+        {
+          "word": "ungefähr",
+          "type": "ADV",
+          "lemma": "ungefähr"
+        },
+        {
+          "word": "12.000",
+          "type": "NUM",
+          "lemma": "12.000"
+        },
+        {
+          "word": "Arbeiterbienen",
+          "type": "NOUN",
+          "lemma": "Arbeiterbien"
+        },
+        {
+          "word": "den",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Stock",
+          "type": "NOUN",
+          "lemma": "Stock"
+        },
+        {
+          "word": "verlässt",
+          "type": "VERB",
+          "lemma": "verlässen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "um",
+          "type": "SCONJ",
+          "lemma": "um"
+        },
+        {
+          "word": "ein",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "neues",
+          "type": "ADJ",
+          "lemma": "neu"
+        },
+        {
+          "word": "Bienenvolk",
+          "type": "NOUN",
+          "lemma": "Bienenvolk"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "gründen",
+          "type": "VERB",
+          "lemma": "gründen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Diesen",
+          "type": "DET",
+          "lemma": "dieser"
+        },
+        {
+          "word": "Schwarmflug",
+          "type": "NOUN",
+          "lemma": "Schwarmflug"
+        },
+        {
+          "word": "untersuchte",
+          "type": "VERB",
+          "lemma": "untersuchen"
+        },
+        {
+          "word": "das",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Forschungsteam",
+          "type": "NOUN",
+          "lemma": "Forschungsteam"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Ergebnisse",
+          "type": "NOUN",
+          "lemma": "Ergebnis"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Studie",
+          "type": "NOUN",
+          "lemma": "Studie"
+        },
+        {
+          "word": "zeigen",
+          "type": "VERB",
+          "lemma": "zeigen"
+        },
+        {
+          "word": ":",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "andere",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Insekten",
+          "type": "NOUN",
+          "lemma": "Insekt"
+        },
+        {
+          "word": "wie",
+          "type": "ADP",
+          "lemma": "wie"
+        },
+        {
+          "word": "Heuschrecken",
+          "type": "NOUN",
+          "lemma": "Heuschrecke"
+        },
+        {
+          "word": "können",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "großen",
+          "type": "ADJ",
+          "lemma": "groß"
+        },
+        {
+          "word": "Schwärmen",
+          "type": "NOUN",
+          "lemma": "Schwärme"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "erzeugen",
+          "type": "VERB",
+          "lemma": "erzeugen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Dadurch",
+          "type": "ADV",
+          "lemma": "dadurch"
+        },
+        {
+          "word": "können",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Insekten",
+          "type": "NOUN",
+          "lemma": "Insekt"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "ähnliche",
+          "type": "ADJ",
+          "lemma": "ähnlich"
+        },
+        {
+          "word": "Auswirkung",
+          "type": "NOUN",
+          "lemma": "Auswirkung"
+        },
+        {
+          "word": "auf",
+          "type": "ADP",
+          "lemma": "auf"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "atmosphärische",
+          "type": "ADJ",
+          "lemma": "atmosphärisch"
+        },
+        {
+          "word": "Elektrizität",
+          "type": "NOUN",
+          "lemma": "Elektrizität"
+        },
+        {
+          "word": "haben",
+          "type": "VERB",
+          "lemma": "haben"
+        },
+        {
+          "word": "wie",
+          "type": "ADP",
+          "lemma": "wie"
+        },
+        {
+          "word": "Wetterereignisse",
+          "type": "NOUN",
+          "lemma": "Wetterereignis"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "paragraph_4": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Das",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "heißt",
+          "type": "VERB",
+          "lemma": "heißen"
+        },
+        {
+          "word": "nicht",
+          "type": "PART",
+          "lemma": "nicht"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Tiere",
+          "type": "NOUN",
+          "lemma": "Tier"
+        },
+        {
+          "word": "das",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Wetter",
+          "type": "NOUN",
+          "lemma": "Wetter"
+        },
+        {
+          "word": "beeinflussen",
+          "type": "VERB",
+          "lemma": "beeinflussen"
+        },
+        {
+          "word": "können",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "sondern",
+          "type": "CCONJ",
+          "lemma": "sondern"
+        },
+        {
+          "word": "nur",
+          "type": "ADV",
+          "lemma": "nur"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladungsverteilung",
+          "type": "NOUN",
+          "lemma": "Ladungsverteilung"
+        },
+        {
+          "word": "aufweisen",
+          "type": "VERB",
+          "lemma": "aufweisen"
+        },
+        {
+          "word": "können",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "ähnlich",
+          "type": "ADV",
+          "lemma": "ähnlich"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Ladungsverteilung",
+          "type": "NOUN",
+          "lemma": "Ladungsverteilung"
+        },
+        {
+          "word": "einer",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Schönwetter-",
+          "type": "X",
+          "lemma": "Schönwetter"
+        },
+        {
+          "word": "oder",
+          "type": "CCONJ",
+          "lemma": "oder"
+        },
+        {
+          "word": "Gewitterwolke",
+          "type": "NOUN",
+          "lemma": "Gewitterwolke"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Letzteres",
+          "type": "PRON",
+          "lemma": "letzterer"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "abhängig",
+          "type": "ADV",
+          "lemma": "abhängig"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Insektenart",
+          "type": "NOUN",
+          "lemma": "Insektenart"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Schwarmdichte",
+          "type": "NOUN",
+          "lemma": "Schwarmdicht"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Forscherinnen",
+          "type": "NOUN",
+          "lemma": "Forscherinn"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "Forscher",
+          "type": "NOUN",
+          "lemma": "Forscher"
+        },
+        {
+          "word": "gehen",
+          "type": "VERB",
+          "lemma": "gehen"
+        },
+        {
+          "word": "davon",
+          "type": "ADV",
+          "lemma": "davon"
+        },
+        {
+          "word": "aus",
+          "type": "ADP",
+          "lemma": "aus"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "durch",
+          "type": "ADP",
+          "lemma": "durch"
+        },
+        {
+          "word": "ihre",
+          "type": "DET",
+          "lemma": "ihr"
+        },
+        {
+          "word": "Reibung",
+          "type": "NOUN",
+          "lemma": "Reibung"
+        },
+        {
+          "word": "mit",
+          "type": "ADP",
+          "lemma": "mit"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Luft",
+          "type": "NOUN",
+          "lemma": "Luft"
+        },
+        {
+          "word": "entsteht",
+          "type": "VERB",
+          "lemma": "entstehen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "andere",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Erklärung",
+          "type": "NOUN",
+          "lemma": "Erklärung"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "mit",
+          "type": "ADP",
+          "lemma": "mit"
+        },
+        {
+          "word": "kleinen",
+          "type": "ADJ",
+          "lemma": "klein"
+        },
+        {
+          "word": "Partikeln",
+          "type": "NOUN",
+          "lemma": "Partikel"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Luft",
+          "type": "NOUN",
+          "lemma": "Luft"
+        },
+        {
+          "word": "kollidieren",
+          "type": "VERB",
+          "lemma": "kollidieren"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "so",
+          "type": "ADV",
+          "lemma": "so"
+        },
+        {
+          "word": "aufgeladen",
+          "type": "VERB",
+          "lemma": "aufgeladen"
+        },
+        {
+          "word": "werden",
+          "type": "AUX",
+          "lemma": "werden"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "h2_2": {
+      "htmlType": "h2",
+      "position": "body",
+      "words": [
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "hilft",
+          "type": "VERB",
+          "lemma": "helfen"
+        },
+        {
+          "word": "bei",
+          "type": "ADP",
+          "lemma": "bei"
+        },
+        {
+          "word": "Nektarsuche",
+          "type": "NOUN",
+          "lemma": "Nektarsuche"
+        }
+      ]
+    },
+    "paragraph_5": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "positive",
+          "type": "ADJ",
+          "lemma": "positiv"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "könnte",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": "ihnen",
+          "type": "PRON",
+          "lemma": "ihnen"
+        },
+        {
+          "word": "helfen",
+          "type": "VERB",
+          "lemma": "helfen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Blumen",
+          "type": "NOUN",
+          "lemma": "Blume"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "finden",
+          "type": "VERB",
+          "lemma": "finden"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "die",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "wie",
+          "type": "ADP",
+          "lemma": "wie"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Erdoberfläche",
+          "type": "NOUN",
+          "lemma": "Erdoberfläche"
+        },
+        {
+          "word": "negativ",
+          "type": "ADV",
+          "lemma": "negativ"
+        },
+        {
+          "word": "geladen",
+          "type": "VERB",
+          "lemma": "laden"
+        },
+        {
+          "word": "sind",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Landet",
+          "type": "VERB",
+          "lemma": "Landet"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Biene",
+          "type": "NOUN",
+          "lemma": "Biene"
+        },
+        {
+          "word": "auf",
+          "type": "ADP",
+          "lemma": "auf"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Blume",
+          "type": "NOUN",
+          "lemma": "Blume"
+        },
+        {
+          "word": "tauschen",
+          "type": "VERB",
+          "lemma": "tauschen"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": "Ladungen",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "aus",
+          "type": "ADP",
+          "lemma": "aus"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Blume",
+          "type": "NOUN",
+          "lemma": "Blume"
+        },
+        {
+          "word": "verändert",
+          "type": "VERB",
+          "lemma": "verändern"
+        },
+        {
+          "word": "sich",
+          "type": "PRON",
+          "lemma": "sich"
+        },
+        {
+          "word": "kurzzeitig",
+          "type": "ADV",
+          "lemma": "kurzzeitig"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "so",
+          "type": "ADV",
+          "lemma": "so"
+        },
+        {
+          "word": "O",
+          "type": "PROPN",
+          "lemma": "O"
+        },
+        {
+          "word": "’",
+          "type": "X",
+          "lemma": "’"
+        },
+        {
+          "word": "Reilly",
+          "type": "X",
+          "lemma": "Reilly"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "„",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Es",
+          "type": "PRON",
+          "lemma": "es"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "nette",
+          "type": "ADJ",
+          "lemma": "nett"
+        },
+        {
+          "word": "Idee",
+          "type": "NOUN",
+          "lemma": "Idee"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": "das",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Feld",
+          "type": "NOUN",
+          "lemma": "Feld"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Blume",
+          "type": "NOUN",
+          "lemma": "Blume"
+        },
+        {
+          "word": "dann",
+          "type": "ADV",
+          "lemma": "dann"
+        },
+        {
+          "word": "anders",
+          "type": "ADV",
+          "lemma": "anders"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "Biene",
+          "type": "NOUN",
+          "lemma": "Biene"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "die",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "vorbeifliegt",
+          "type": "VERB",
+          "lemma": "vorbeifliegen"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "ohne",
+          "type": "SCONJ",
+          "lemma": "ohne"
+        },
+        {
+          "word": "zu",
+          "type": "ADP",
+          "lemma": "zu"
+        },
+        {
+          "word": "Landen",
+          "type": "NOUN",
+          "lemma": "landen"
+        },
+        {
+          "word": "nur",
+          "type": "ADV",
+          "lemma": "nur"
+        },
+        {
+          "word": "durch",
+          "type": "ADP",
+          "lemma": "durch"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "erkennen",
+          "type": "VERB",
+          "lemma": "erkennen"
+        },
+        {
+          "word": "kann",
+          "type": "AUX",
+          "lemma": "können"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "ob",
+          "type": "SCONJ",
+          "lemma": "ob"
+        },
+        {
+          "word": "diese",
+          "type": "DET",
+          "lemma": "dieser"
+        },
+        {
+          "word": "Blume",
+          "type": "NOUN",
+          "lemma": "Blume"
+        },
+        {
+          "word": "bereits",
+          "type": "ADV",
+          "lemma": "bereits"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "einer",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "anderen",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Biene",
+          "type": "NOUN",
+          "lemma": "Biene"
+        },
+        {
+          "word": "besucht",
+          "type": "VERB",
+          "lemma": "besuchen"
+        },
+        {
+          "word": "wurde",
+          "type": "AUX",
+          "lemma": "werden"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "“",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "paragraph_6": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "Auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Pollen",
+          "type": "NOUN",
+          "lemma": "Poll"
+        },
+        {
+          "word": "sind",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "laut",
+          "type": "ADP",
+          "lemma": "laut"
+        },
+        {
+          "word": "O",
+          "type": "PROPN",
+          "lemma": "O"
+        },
+        {
+          "word": "’",
+          "type": "PROPN",
+          "lemma": "’"
+        },
+        {
+          "word": "Reilly",
+          "type": "X",
+          "lemma": "Reilly"
+        },
+        {
+          "word": " ",
+          "type": "SPACE",
+          "lemma": " "
+        },
+        {
+          "word": "negativ",
+          "type": "ADV",
+          "lemma": "negativ"
+        },
+        {
+          "word": "geladen",
+          "type": "VERB",
+          "lemma": "laden"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "haften",
+          "type": "VERB",
+          "lemma": "haften"
+        },
+        {
+          "word": "so",
+          "type": "ADV",
+          "lemma": "so"
+        },
+        {
+          "word": "gut",
+          "type": "ADV",
+          "lemma": "gut"
+        },
+        {
+          "word": "an",
+          "type": "ADP",
+          "lemma": "an"
+        },
+        {
+          "word": "den",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Haaren",
+          "type": "NOUN",
+          "lemma": "Haar"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Biene",
+          "type": "NOUN",
+          "lemma": "Biene"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Aber",
+          "type": "CCONJ",
+          "lemma": "aber"
+        },
+        {
+          "word": "nicht",
+          "type": "PART",
+          "lemma": "nicht"
+        },
+        {
+          "word": "nur",
+          "type": "ADV",
+          "lemma": "nur"
+        },
+        {
+          "word": "Bienen",
+          "type": "NOUN",
+          "lemma": "Bie"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "andere",
+          "type": "ADJ",
+          "lemma": "anderer"
+        },
+        {
+          "word": "Insekten",
+          "type": "NOUN",
+          "lemma": "Insekt"
+        },
+        {
+          "word": "haben",
+          "type": "VERB",
+          "lemma": "haben"
+        },
+        {
+          "word": "eine",
+          "type": "DET",
+          "lemma": "ein"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "Vögel",
+          "type": "NOUN",
+          "lemma": "Vogel"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "Mikroorganismen",
+          "type": "NOUN",
+          "lemma": "Mikroorganisme"
+        },
+        {
+          "word": "tragen",
+          "type": "VERB",
+          "lemma": "tragen"
+        },
+        {
+          "word": "zur",
+          "type": "ADP",
+          "lemma": "zu"
+        },
+        {
+          "word": "elektrischen",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Atmosphäre",
+          "type": "NOUN",
+          "lemma": "Atmosphäre"
+        },
+        {
+          "word": "bei",
+          "type": "ADP",
+          "lemma": "bei"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Diese",
+          "type": "PRON",
+          "lemma": "dieser"
+        },
+        {
+          "word": "verbessert",
+          "type": "VERB",
+          "lemma": "verbessern"
+        },
+        {
+          "word": "wiederum",
+          "type": "ADV",
+          "lemma": "wiederum"
+        },
+        {
+          "word": "den",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Transport",
+          "type": "NOUN",
+          "lemma": "Transport"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "Partikeln",
+          "type": "NOUN",
+          "lemma": "Partikel"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Luft",
+          "type": "NOUN",
+          "lemma": "Luft"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    },
+    "paragraph_7": {
+      "htmlType": "p",
+      "position": "body",
+      "words": [
+        {
+          "word": "In",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Studie",
+          "type": "NOUN",
+          "lemma": "Studie"
+        },
+        {
+          "word": "berechneten",
+          "type": "VERB",
+          "lemma": "berechneen"
+        },
+        {
+          "word": "O",
+          "type": "PROPN",
+          "lemma": "O"
+        },
+        {
+          "word": "’",
+          "type": "PROPN",
+          "lemma": "’"
+        },
+        {
+          "word": "Reilly",
+          "type": "X",
+          "lemma": "Reilly"
+        },
+        {
+          "word": " ",
+          "type": "SPACE",
+          "lemma": " "
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "seine",
+          "type": "DET",
+          "lemma": "sein"
+        },
+        {
+          "word": "Kolleginnen",
+          "type": "NOUN",
+          "lemma": "Kollegin"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "Kollegen",
+          "type": "NOUN",
+          "lemma": "Kollege"
+        },
+        {
+          "word": "auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "Wüstenheuschrecken",
+          "type": "NOUN",
+          "lemma": "Wüstenheuschrecke"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "die",
+          "type": "PRON",
+          "lemma": "der"
+        },
+        {
+          "word": "durch",
+          "type": "ADP",
+          "lemma": "durch"
+        },
+        {
+          "word": "Schwärme",
+          "type": "NOUN",
+          "lemma": "Schwärme"
+        },
+        {
+          "word": "mit",
+          "type": "ADP",
+          "lemma": "mit"
+        },
+        {
+          "word": "„",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "biblischem",
+          "type": "ADJ",
+          "lemma": "biblisch"
+        },
+        {
+          "word": "Ausmaß",
+          "type": "NOUN",
+          "lemma": "Ausmaß"
+        },
+        {
+          "word": "“",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "so",
+          "type": "ADV",
+          "lemma": "so"
+        },
+        {
+          "word": "O",
+          "type": "PROPN",
+          "lemma": "O"
+        },
+        {
+          "word": "’",
+          "type": "PROPN",
+          "lemma": "’"
+        },
+        {
+          "word": "Reilly",
+          "type": "X",
+          "lemma": "Reilly"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "beispielsweise",
+          "type": "ADV",
+          "lemma": "beispielsweise"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "Afrika",
+          "type": "PROPN",
+          "lemma": "Afrika"
+        },
+        {
+          "word": "immer",
+          "type": "ADV",
+          "lemma": "immer"
+        },
+        {
+          "word": "wieder",
+          "type": "ADV",
+          "lemma": "wieder"
+        },
+        {
+          "word": "große",
+          "type": "ADJ",
+          "lemma": "groß"
+        },
+        {
+          "word": "Schäden",
+          "type": "NOUN",
+          "lemma": "Schaden"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Landwirtschaft",
+          "type": "NOUN",
+          "lemma": "Landwirtschaft"
+        },
+        {
+          "word": "verursachen",
+          "type": "VERB",
+          "lemma": "verursachen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "In",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Studie",
+          "type": "NOUN",
+          "lemma": "Studie"
+        },
+        {
+          "word": "spekulieren",
+          "type": "VERB",
+          "lemma": "spekulieren"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "ob",
+          "type": "SCONJ",
+          "lemma": "ob"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Ladung",
+          "type": "NOUN",
+          "lemma": "Ladung"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Insekten",
+          "type": "NOUN",
+          "lemma": "Insekt"
+        },
+        {
+          "word": "auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "zum",
+          "type": "ADP",
+          "lemma": "zu"
+        },
+        {
+          "word": "Transport",
+          "type": "NOUN",
+          "lemma": "Transport"
+        },
+        {
+          "word": "von",
+          "type": "ADP",
+          "lemma": "von"
+        },
+        {
+          "word": "Wüstenstaub",
+          "type": "NOUN",
+          "lemma": "Wüstenstaub"
+        },
+        {
+          "word": "über",
+          "type": "ADP",
+          "lemma": "über"
+        },
+        {
+          "word": "mehrere",
+          "type": "DET",
+          "lemma": "mehrere"
+        },
+        {
+          "word": "Kilometer",
+          "type": "NOUN",
+          "lemma": "Kilometer"
+        },
+        {
+          "word": "beiträgt",
+          "type": "VERB",
+          "lemma": "beitragen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "„",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Es",
+          "type": "PRON",
+          "lemma": "es"
+        },
+        {
+          "word": "ist",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "verlockend",
+          "type": "ADV",
+          "lemma": "verlockend"
+        },
+        {
+          "word": "zu",
+          "type": "PART",
+          "lemma": "zu"
+        },
+        {
+          "word": "denken",
+          "type": "VERB",
+          "lemma": "denken"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "dass",
+          "type": "SCONJ",
+          "lemma": "dass"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "wenn",
+          "type": "SCONJ",
+          "lemma": "wenn"
+        },
+        {
+          "word": "Wüstenheuschrecken",
+          "type": "NOUN",
+          "lemma": "wüstenheuschrecken"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "großen",
+          "type": "ADJ",
+          "lemma": "groß"
+        },
+        {
+          "word": "Schwärmen",
+          "type": "NOUN",
+          "lemma": "Schwärme"
+        },
+        {
+          "word": "zusammenkommen",
+          "type": "VERB",
+          "lemma": "zusammenkommen"
+        },
+        {
+          "word": "und",
+          "type": "CCONJ",
+          "lemma": "und"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": "das",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "lokale",
+          "type": "ADJ",
+          "lemma": "lokal"
+        },
+        {
+          "word": "elektrische",
+          "type": "ADJ",
+          "lemma": "elektrisch"
+        },
+        {
+          "word": "Feld",
+          "type": "NOUN",
+          "lemma": "Feld"
+        },
+        {
+          "word": "verändern",
+          "type": "VERB",
+          "lemma": "verändern"
+        },
+        {
+          "word": ",",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "sie",
+          "type": "PRON",
+          "lemma": "sie"
+        },
+        {
+          "word": "auch",
+          "type": "ADV",
+          "lemma": "auch"
+        },
+        {
+          "word": "die",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Menge",
+          "type": "NOUN",
+          "lemma": "Menge"
+        },
+        {
+          "word": "an",
+          "type": "ADP",
+          "lemma": "an"
+        },
+        {
+          "word": "Wüstenstaub",
+          "type": "NOUN",
+          "lemma": "Wüstenstaub"
+        },
+        {
+          "word": "in",
+          "type": "ADP",
+          "lemma": "in"
+        },
+        {
+          "word": "der",
+          "type": "DET",
+          "lemma": "der"
+        },
+        {
+          "word": "Luft",
+          "type": "NOUN",
+          "lemma": "Luft"
+        },
+        {
+          "word": "beeinflussen",
+          "type": "VERB",
+          "lemma": "beeinflussen"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "“",
+          "type": "PUNCT",
+          "lemma": "--"
+        },
+        {
+          "word": "Weitere",
+          "type": "ADJ",
+          "lemma": "weit"
+        },
+        {
+          "word": "Forschung",
+          "type": "NOUN",
+          "lemma": "Forschung"
+        },
+        {
+          "word": "sei",
+          "type": "AUX",
+          "lemma": "sein"
+        },
+        {
+          "word": "aber",
+          "type": "ADV",
+          "lemma": "aber"
+        },
+        {
+          "word": "notwendig",
+          "type": "ADV",
+          "lemma": "notwendig"
+        },
+        {
+          "word": ".",
+          "type": "PUNCT",
+          "lemma": "--"
+        }
+      ]
+    }
+  }
+}
