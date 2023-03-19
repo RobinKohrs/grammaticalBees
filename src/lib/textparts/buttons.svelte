@@ -13,6 +13,7 @@
 <div class="buttonContainer">
   {#each wordTypes as type, i}
     <button
+      style="margin-right: {i === 0 ? 'auto' : ''}"
       class:selected={selected.includes(type.type)}
       on:click={(e) => handleClick(e, type)}>{type.display}</button
     >
@@ -21,14 +22,14 @@
 
 <style lang="scss">
   .buttonContainer {
-    margin: 2rem 0;
+    margin: 0 2rem 0;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     flex-wrap: wrap;
 
     & > button {
-      padding: 1rem;
+      padding: 0.2rem;
       // border: 1px solid black;
       border-radius: 0.3rem;
       overflow: hidden;

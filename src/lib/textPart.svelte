@@ -2,11 +2,25 @@
   import { onMount } from "svelte";
   import { typeStore } from "../stores/currentType";
 
-  $: currentType = $typeStore;
-
+  $: currentTypes = $typeStore;
   // export props
   export let part;
   export let text;
+  export let wordTypes;
+
+  function findColor(ty, types) {
+    let color = "black";
+    let found = wordTypes.find((t) => t.type == ty);
+    if (found) {
+      color = found["color"];
+    }
+
+    if (currentTypes[0] === "all") {
+      color = "black";
+    }
+
+    return color;
+  }
 </script>
 
 {#if part === "newspaper"}
@@ -51,13 +65,25 @@
               j < text[bp].words.length
                 ? text[bp].words[j + 1]
                 : { type: "END" }}
+            {@const currentWord = word.word}
+            {@const currentType = word.type}
+            {@const color = findColor(currentType, currentTypes)}
+
             {#if nextWord && nextWord.type === "PUNCT"}
-              <span>
-                {word.word}
+              <span
+                style:color
+                class:hide={!currentTypes.includes(currentType) &&
+                  currentTypes[0] !== "all"}
+              >
+                {currentWord}
               </span>
             {:else}
-              <span class="show">
-                {word.word}&nbsp;
+              <span
+                style:color
+                class:hide={!currentTypes.includes(currentType) &&
+                  currentTypes[0] !== "all"}
+              >
+                {currentWord}&nbsp;
               </span>
             {/if}
           {/each}
@@ -129,6 +155,11 @@
   }
 
   .body {
+    & span {
+      opacity: 1;
+      transition: opacity 200ms linear;
+    }
+
     & > p {
       display: flex;
       flex-wrap: wrap;
@@ -137,6 +168,10 @@
 
     & > h2 {
       font-size: 1.5rem;
+    }
+
+    & .hide {
+      opacity: 0;
     }
   }
 </style>
