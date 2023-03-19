@@ -1,12 +1,15 @@
 <script>
   import { onMount } from "svelte";
   import { typeStore } from "../stores/currentType";
+  import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
 
   $: currentTypes = $typeStore;
   // export props
   export let part;
   export let text;
   export let wordTypes;
+
+  let showNParagraphs = 1;
 
   function findColor(ty, types) {
     let color = "black";
@@ -57,7 +60,7 @@
 
 {#if part === "body"}
   <div class="body">
-    {#each Object.keys(text) as bp, i}
+    {#each Object.keys(text).slice(0, showNParagraphs) as bp, i}
       {#if /para/.test(bp)}
         <p>
           {#each text[bp].words as word, j}
@@ -99,6 +102,8 @@
       {/if}
     {/each}
   </div>
+
+  <ShowParagraphButtons />
 {/if}
 
 <style lang="scss">
@@ -113,7 +118,7 @@
       font-weight: 600;
       text-transform: uppercase;
       //   text-decoration: underline;
-      font-size: 2.5rem;
+      font-size: 1.2rem;
       letter-spacing: 0.1ch;
       font-family: "Playfair Display";
     }
@@ -132,7 +137,7 @@
   }
 
   .article-info::before {
-    content: "Robin Kohrs";
+    content: "Elena Deutscher";
     position: absolute;
     top: 0;
     left: 50%;
@@ -145,6 +150,8 @@
     flex-wrap: wrap;
     font-weight: 400;
     font-size: 2rem;
+    margin: 0.5rem 0;
+    text-decoration: underline;
     font-family: "Playfair Display";
   }
 

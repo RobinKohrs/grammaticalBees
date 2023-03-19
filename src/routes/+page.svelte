@@ -19,22 +19,22 @@
     {
       type: "noun",
       display: "Nomen",
-      color: "red",
+      color: "#5F5B6B",
     },
     {
       type: "verb",
       display: "Verb",
-      color: "green",
+      color: "#DB504A",
     },
     {
       type: "adj",
       display: "Adjektiv",
-      color: "blue",
+      color: "#00916E",
     },
     {
       type: "adv",
       display: "Adverb",
-      color: "purple",
+      color: "#C8AD55",
     },
   ];
 
@@ -87,7 +87,7 @@
   </section>
 
   <section class="newspaper">
-    <TextPart {wordTypes} part={"newspaper"} text={"ORF"} />
+    <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} />
   </section>
 
   <section class="title">
