@@ -41,10 +41,17 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
+
+    & > * {
+      margin: 0 auto;
+    }
 
     & > div:nth-child(2) {
       display: flex;
       gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     & button {

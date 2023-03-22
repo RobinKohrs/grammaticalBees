@@ -1,16 +1,27 @@
 <script>
   import { createEventDispatcher } from "svelte";
+  import { getContext } from "svelte";
+
+  let { body } = getContext("article");
+  let totalParagraphs;
+  $: if (body) {
+    totalParagraphs = Object.keys(body).length - 1;
+  }
 
   function handlePlus() {
+    if (para >= totalParagraphs) return;
     para++;
   }
 
   function handleMinus() {
+    if (para <= 1) return;
     para--;
   }
 
+  $: console.log("para: ", para);
+  $: console.log("length: ", totalParagraphs);
   function handleShowAll() {
-    console.log("show all");
+    para = totalParagraphs;
   }
 
   export let para;

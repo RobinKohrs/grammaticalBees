@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { setContext } from "svelte";
   import { scrollToBottomAction } from "svelte-legos";
 
   let bodyContainer;
@@ -20,6 +21,7 @@
 
   // data
   import article from "./../assets/article.json";
+  setContext("article", article);
 
   // components
   import TextPart from "$lib/textPart.svelte";
@@ -118,7 +120,7 @@
     <TextPart {wordTypes} part={"article-info"} />
   </section>
 
-  <section class="body overflow-auto" bind:this={bodyContainer}>
+  <section class="body" bind:this={bodyContainer}>
     <TextPart {wordTypes} part={"body"} text={article.body} />
   </section>
 </div>

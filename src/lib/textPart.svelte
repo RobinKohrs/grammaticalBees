@@ -1,30 +1,42 @@
 <script>
-  import { onMount, tick } from "svelte";
+  import { onDestroy, onMount, tick } from "svelte";
   import { slide, fade } from "svelte/transition";
   import { typeStore } from "../stores/currentType";
   import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
 
   let spans;
   onMount(() => {
-    spans = document.querySelectorAll("span");
+    updateSpans();
   });
 
-  async function updateSpans() {
-    await tick;
-    spans = document.querySelectorAll("span");
-    console.log("spans: ", spans);
-  }
-  $: if (showNParagraphs > 1) {
-    updateSpans();
-  }
-
-  $: currentTypes = $typeStore;
   // export props
   export let part;
   export let text;
   export let wordTypes;
-
   let showNParagraphs = 1;
+
+  // get all the spans (each word) on the current page
+  async function updateSpans() {
+    await tick;
+    spans = document.querySelectorAll("span");
+    [...spans].forEach((span) => {
+      // if the span was already rendered, do not attach an event listener
+      if (!span.hasAttribute("rendered")) {
+        span.setAttribute("rendered", true);
+        span.setAttribute("flipped", false);
+        span.style.tranform = "rotate3d(1, 0, 0, 360deg)";
+        span.addEventListener("click", () => {
+          flipWord(span);
+        });
+      }
+    });
+  }
+
+  // if the number of paragraphes changes, update the spans-list
+  $: if (showNParagraphs > 1 && part === "body") {
+    updateSpans();
+  }
+  $: currentTypes = $typeStore;
 
   function findColor(ty, types) {
     let color = "black";
@@ -38,6 +50,25 @@
     }
 
     return color;
+  }
+
+  async function flipWord(ele) {
+    let w = ele.getBoundingClientRect().width;
+    let f = ele.getAttribute("flipped");
+    console.log("f: ", f);
+
+    if (f === "false") {
+      console.log("here");
+      ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
+      ele.style.width = `${w}px`;
+      ele.style.color = "red";
+      ele.style.textAlign = "center";
+      ele.setAttribute("flipped", true);
+      ele.innerText = "flipped";
+    } else {
+      ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
+      ele.setAttribute("flipped", false);
+    }
   }
 </script>
 
@@ -122,6 +153,13 @@
 {/if}
 
 <style lang="scss">
+  span {
+    opacity: 1;
+    transition-property: opacity, transform;
+    transition-duration: 200ms, 500ms;
+    transition-timing-function: linear, linear;
+  }
+
   .newspaper-name {
     margin: 1rem;
     display: flex;
@@ -177,11 +215,6 @@
   }
 
   .body {
-    & span {
-      opacity: 1;
-      transition: opacity 200ms linear;
-    }
-
     & > p {
       display: flex;
       flex-wrap: wrap;
