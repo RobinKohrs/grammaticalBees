@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { slide, fade } from "svelte/transition";
   import { typeStore } from "../stores/currentType";
   import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
 
@@ -59,10 +60,10 @@
 {/if}
 
 {#if part === "body"}
-  <div class="body">
+  <div class="body overflow-auto">
     {#each Object.keys(text).slice(0, showNParagraphs) as bp, i}
       {#if /para/.test(bp)}
-        <p>
+        <p transition:slide>
           {#each text[bp].words as word, j}
             {@const nextWord =
               j < text[bp].words.length
@@ -103,7 +104,7 @@
     {/each}
   </div>
 
-  <ShowParagraphButtons />
+  <ShowParagraphButtons bind:para={showNParagraphs} />
 {/if}
 
 <style lang="scss">

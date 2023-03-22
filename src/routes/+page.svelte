@@ -1,5 +1,21 @@
 <script>
   import { onMount } from "svelte";
+  import { scrollToBottomAction } from "svelte-legos";
+
+  let bodyContainer;
+  function scrollToBottom() {
+    console.log("here");
+    // window.scrollTo({
+    //   top: bodyContainer.scrollHeight,
+    //   behavior: "smooth",
+    // });
+  }
+  onMount(() => {
+    let observer = new ResizeObserver((ele) => {
+      scrollToBottom();
+    });
+    observer.observe(bodyContainer);
+  });
 
   import { typeStore } from "../stores/currentType.js";
 
@@ -9,6 +25,7 @@
   // components
   import TextPart from "$lib/textPart.svelte";
   import Buttons from "$lib/textparts/buttons.svelte";
+  import { element } from "svelte/internal";
 
   let wordTypes = [
     {
@@ -78,13 +95,13 @@
   }
 </script>
 
-<div class="container">
-  <section class="buttons">
+<div class="container" use:scrollToBottom>
+  <!-- <section class="buttons">
     <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
     {#if $typeStore}
       <Buttons {wordTypes} selected={$typeStore} on:click={setWordType} />
-    {/if}
-  </section>
+    {/if} 
+  </section> -->
 
   <section class="newspaper">
     <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} />
@@ -102,7 +119,7 @@
     <TextPart {wordTypes} part={"article-info"} />
   </section>
 
-  <section class="body">
+  <section class="body overflow-auto" bind:this={bodyContainer}>
     <TextPart {wordTypes} part={"body"} text={article.body} />
   </section>
 </div>
@@ -112,6 +129,33 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0 0 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Create the dog-ear on the top-left corner */
+  .container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bgColor);
+    transform: rotate(-45deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bgColor);
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .buttons {

@@ -11,7 +11,9 @@
 
 <style lang="scss">
   :global(body) {
-    background-color: bisque;
+    --bgColor: bisque;
+
+    background-color: var(--bgColor);
     font-family: "Playfair Display";
   }
 </style>

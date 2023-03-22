@@ -1,14 +1,29 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+
+  function handlePlus() {
+    para++;
+  }
+
+  function handleMinus() {
+    para--;
+  }
+
+  function handleShowAll() {
+    console.log("show all");
+  }
+
+  export let para;
 </script>
 
 <div class="container flex justify-around flex-wrap">
   <div class="paragraph">
-    <button>+</button>
+    <button on:click={handlePlus}>+</button>
     <span>Absatz</span>
-    <button>-</button>
+    <button on:click={handleMinus}>-</button>
   </div>
   <div class="alles">
-    <button>Alles</button>
+    <button on:click={handleShowAll}>Alles</button>
   </div>
 </div>
 
