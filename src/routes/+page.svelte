@@ -4,11 +4,10 @@
 
   let bodyContainer;
   function scrollToBottom() {
-    console.log("here");
-    // window.scrollTo({
-    //   top: bodyContainer.scrollHeight,
-    //   behavior: "smooth",
-    // });
+    window.scrollTo({
+      top: bodyContainer.scrollHeight,
+      behavior: "smooth",
+    });
   }
   onMount(() => {
     let observer = new ResizeObserver((ele) => {
@@ -95,13 +94,13 @@
   }
 </script>
 
-<div class="container" use:scrollToBottom>
-  <!-- <section class="buttons">
+<div class="container">
+  <section class="buttons">
     <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
     {#if $typeStore}
       <Buttons {wordTypes} selected={$typeStore} on:click={setWordType} />
-    {/if} 
-  </section> -->
+    {/if}
+  </section>
 
   <section class="newspaper">
     <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} />
@@ -130,39 +129,38 @@
     margin: 0 auto;
     padding: 0 0 1rem;
     position: relative;
-    overflow: hidden;
   }
 
   /* Create the dog-ear on the top-left corner */
-  .container::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 40px;
-    height: 40px;
-    background-color: var(--bgColor);
-    transform: rotate(-45deg);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+  // .container::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: -20px;
+  //   left: -20px;
+  //   width: 40px;
+  //   height: 40px;
+  //   background-color: var(--bgColor);
+  //   transform: rotate(-45deg);
+  //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  // }
 
-  .container::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
-    width: 40px;
-    height: 40px;
-    background-color: var(--bgColor);
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+  // .container::after {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: -20px;
+  //   right: -20px;
+  //   width: 40px;
+  //   height: 40px;
+  //   background-color: var(--bgColor);
+  //   transform: rotate(45deg);
+  //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  // }
 
   .buttons {
     position: sticky;
     top: 0;
     z-index: 999;
-    background-color: hsl(0, 0, 90);
+    background-color: #ffc680;
     padding-bottom: 1rem;
     border-radius: 0 0 0.5rem 0.5rem;
     border-right: 2px solid black;

@@ -4,44 +4,58 @@
 
   export let wordTypes;
   export let selected;
-  $: console.log("selected: ", selected);
 
-  function handleClick(e, type) {
-    dispatch("click", type);
+  let wordTypesFormatted;
+  $: if (wordTypes) {
+    wordTypes = [[wordTypes[0]], wordTypes.slice(2)];
+    wordTypesFormatted = true;
+  }
+
+  function handleClick(e, t) {
+    dispatch("click", t);
   }
 </script>
 
-<div class="buttonContainer">
-  {#each wordTypes as type, i}
-    {console.log("type: ", type) || ""}
-    <button
-      style="margin-right: {i === 0 ? 'auto' : ''};"
-      style:background-color={selected[0] === "all" && type.type === "all"
-        ? "grey"
-        : selected.includes(type.type)
-        ? type.color
-        : ""}
-      on:click={(e) => handleClick(e, type)}>{type.display}</button
-    >
-  {/each}
-</div>
+{#if wordTypesFormatted}
+  <div class="buttonContainer">
+    {#each wordTypes as wType, i}
+      <div>
+        {#each wType as t}
+          <button
+            style:background-color={selected[0] === "all" && t.type === "all"
+              ? "#ededed"
+              : selected.includes(t.type)
+              ? t.color
+              : ""}
+            on:click={(e) => handleClick(e, t)}>{t.display}</button
+          >
+        {/each}
+      </div>
+    {/each}
+  </div>
+{/if}
 
 <style lang="scss">
   .buttonContainer {
     margin: 0 2rem 0;
     display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 
-    & > button {
-      padding: 0.2rem;
+    & > div:nth-child(2) {
+      display: flex;
+      gap: 1rem;
+    }
+
+    & button {
+      padding: 0.5rem;
       // border: 1px solid black;
       border-radius: 0.3rem;
       overflow: hidden;
+      border: 2px solid black;
     }
 
-    & > button:hover {
+    & button:hover {
       background-color: hsla(0, 0%, 0, 0.1);
     }
   }

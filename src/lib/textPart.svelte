@@ -1,8 +1,22 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount, tick } from "svelte";
   import { slide, fade } from "svelte/transition";
   import { typeStore } from "../stores/currentType";
   import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
+
+  let spans;
+  onMount(() => {
+    spans = document.querySelectorAll("span");
+  });
+
+  async function updateSpans() {
+    await tick;
+    spans = document.querySelectorAll("span");
+    console.log("spans: ", spans);
+  }
+  $: if (showNParagraphs > 1) {
+    updateSpans();
+  }
 
   $: currentTypes = $typeStore;
   // export props
