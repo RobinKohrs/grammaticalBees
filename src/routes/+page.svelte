@@ -33,6 +33,7 @@
   import Buttons from "$lib/textparts/buttons.svelte";
 
   let spans;
+  let fakeContainer;
   let wordTypes = [
     {
       type: "all",
@@ -138,30 +139,45 @@
   }
 
   async function flipWord(ele) {
-    let w = ele.getBoundingClientRect().width;
     let flipped = ele.dataset.flipped === "true";
 
     // the spans text and type
     let wordType = ele.dataset.wordType;
-    let wordText = ele.dataset.word;
+    let wordText = `${ele.dataset.word}`;
 
-    // the new size of the flipped span has
+    // size of wordType
+    let typeFakeEle = document.createElement("span");
+    typeFakeEle.innerHTML = wordType;
+    fakeContainer.appendChild(typeFakeEle);
+    let fakeTypeWidth = typeFakeEle.offsetWidth;
 
+    let textFakeEle = document.createElement("span");
+    textFakeEle.innerHTML = wordText;
+    fakeContainer.appendChild(textFakeEle);
+    let fakeTextWidth = textFakeEle.offsetWidth;
+
+    let w = fakeTextWidth > fakeTypeWidth ? fakeTextWidth : fakeTypeWidth + 4;
     if (!flipped) {
       ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
-      ele.style.width = `${w}px`;
+      ele.style.width = w + "px";
       ele.style.textAlign = "center";
       ele.dataset.flipped = true;
-      ele.innerText = wordType;
+      ele.innerHTML = wordType + "&nbsp;";
     } else {
       ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
-      ele.innerText = wordText;
+      ele.style.width = w + "px";
+      ele.innerHTML = wordText;
       ele.dataset.flipped = false;
     }
   }
 </script>
 
-<div class="container">
+<div class="container" bind:this={bodyContainer}>
+  <div
+    class="fakeElements absolute w-0 h-0 overflow-hidden"
+    bind:this={fakeContainer}
+  />
+
   <section class="word-buttons">
     <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
     {#if $typeStore}
