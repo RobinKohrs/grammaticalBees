@@ -1,7 +1,11 @@
 <script>
   import { onMount } from "svelte";
   import { setContext } from "svelte";
-  import { scrollToBottomAction } from "svelte-legos";
+  import { slide, fade } from "svelte/transition";
+  import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
+
+  // data
+  import article from "./../assets/article.json";
 
   let bodyContainer;
   function scrollToBottom() {
@@ -11,6 +15,7 @@
     });
   }
   onMount(() => {
+    updateSpans();
     let observer = new ResizeObserver((ele) => {
       scrollToBottom();
     });
@@ -19,15 +24,15 @@
 
   import { typeStore } from "../stores/currentType.js";
 
-  // data
-  import article from "./../assets/article.json";
+  let flippedTextWidth = 60;
+  let showNParagraphs = 1;
+
   setContext("article", article);
 
   // components
-  import TextPart from "$lib/textPart.svelte";
   import Buttons from "$lib/textparts/buttons.svelte";
-  import { element } from "svelte/internal";
 
+  let spans;
   let wordTypes = [
     {
       type: "all",
@@ -94,10 +99,68 @@
       $typeStore = ["all"];
     }
   }
+
+  // get all the spans (each word) on the current page
+  async function updateSpans() {
+    spans = document.querySelectorAll("span");
+    console.log("spans: ", spans);
+    [...spans].forEach((span) => {
+      // if the span was already rendered, do not attach an event listener
+      if (!span.hasAttribute("data-rendered")) {
+        span.style.transform = "rotate3d(0, 0, 0, 0deg)";
+        span.dataset.rendered = true;
+        span.dataset.flipped = false;
+        span.addEventListener("click", () => {
+          flipWord(span);
+        });
+      }
+    });
+  }
+
+  // if the number of paragraphes changes, update the spans-list
+  $: if (showNParagraphs > 1 && part === "body") {
+    updateSpans();
+  }
+  $: currentTypes = $typeStore;
+
+  function findColor(ty, types) {
+    let color = "black";
+    let found = wordTypes.find((t) => t.type == ty);
+    if (found) {
+      color = found["color"];
+    }
+
+    if (currentTypes[0] === "all") {
+      color = "black";
+    }
+
+    return color;
+  }
+
+  async function flipWord(ele) {
+    let w = ele.getBoundingClientRect().width;
+    let f = ele.dataset.flipped;
+    if (w < flippedTextWidth) {
+      w = flippedTextWidth;
+    }
+
+    if (f === "false") {
+      console.log("false");
+      ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
+      ele.style.width = `${w}px`;
+      ele.style.color = "red";
+      ele.style.textAlign = "center";
+      ele.dataset.flipped = true;
+      ele.innerText = "flipped";
+    } else {
+      ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
+      ele.dataset.flipped = false;
+    }
+  }
 </script>
 
 <div class="container">
-  <section class="buttons">
+  <section class="word-buttons">
     <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
     {#if $typeStore}
       <Buttons {wordTypes} selected={$typeStore} on:click={setWordType} />
@@ -105,23 +168,81 @@
   </section>
 
   <section class="newspaper">
-    <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} />
+    <!-- <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} /> -->
+    <div class="newspaper-name">
+      <span class="newspaper">Ö1-Wissenschaft</span>
+    </div>
   </section>
 
-  <section class="title">
-    <TextPart part={"article-header"} text={article.header} />
+  <section class="header">
+    <div class="article-header">
+      {#each article.header.words as word}
+        <span> {word.word}&nbsp;</span>
+      {/each}
+    </div>
   </section>
 
-  <section class="subtitle">
-    <TextPart {wordTypes} part={"article-subheader"} text={article.subheader} />
-  </section>
+  <div class="article-subheader">
+    {#each article.subheader.words as word, i}
+      <span>
+        {word.word}
+      </span>
+    {/each}
+  </div>
 
-  <section class="article-info">
-    <TextPart {wordTypes} part={"article-info"} />
+  <section class="info">
+    <div class="article-info">
+      <span class="time">20.03.2023</span>
+      <span class="time">7:20 Uhr</span>
+      <span class="time">Wien</span>
+    </div>
   </section>
 
   <section class="body" bind:this={bodyContainer}>
-    <TextPart {wordTypes} part={"body"} text={article.body} />
+    <div class="body overflow-auto">
+      {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
+        {#if /para/.test(bp)}
+          <p transition:slide>
+            {#each article.body[bp].words as word, j}
+              {@const nextWord =
+                j < article.body[bp].words.length
+                  ? article.body[bp].words[j + 1]
+                  : { type: "END" }}
+              {@const currentWord = word.word}
+              {@const currentType = word.type}
+              {@const color = findColor(currentType, currentTypes)}
+
+              {#if nextWord && nextWord.type === "PUNCT"}
+                <span
+                  style:color
+                  class:hide={!currentTypes.includes(currentType) &&
+                    currentTypes[0] !== "all"}
+                >
+                  {currentWord}
+                </span>
+              {:else}
+                <span
+                  style:color
+                  class:hide={!currentTypes.includes(currentType) &&
+                    currentTypes[0] !== "all"}
+                >
+                  {currentWord}&nbsp;
+                </span>
+              {/if}
+            {/each}
+          </p>
+        {:else}
+          <h2>
+            {#each article.body[bp].words as word}
+              <span>
+                {word.word}&nbsp;
+              </span>
+            {/each}
+          </h2>
+        {/if}
+      {/each}
+    </div>
+    <!-- <ShowParagraphButtons bind:para={showNParagraphs} /> -->
   </section>
 </div>
 
@@ -131,42 +252,99 @@
     margin: 0 auto;
     padding: 0 0 1rem;
     position: relative;
+
+    & .word-buttons {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: #ffc680;
+      padding-bottom: 1rem;
+      border-radius: 0 0 0.5rem 0.5rem;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+    }
   }
 
-  /* Create the dog-ear on the top-left corner */
-  // .container::before {
-  //   content: "";
-  //   position: absolute;
-  //   top: -20px;
-  //   left: -20px;
-  //   width: 40px;
-  //   height: 40px;
-  //   background-color: var(--bgColor);
-  //   transform: rotate(-45deg);
-  //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  // }
+  span {
+    opacity: 1;
+    transition-property: opacity, transform;
+    transition-duration: 200ms, 500ms;
+    transition-timing-function: linear, linear;
+  }
 
-  // .container::after {
-  //   content: "";
-  //   position: absolute;
-  //   bottom: -20px;
-  //   right: -20px;
-  //   width: 40px;
-  //   height: 40px;
-  //   background-color: var(--bgColor);
-  //   transform: rotate(45deg);
-  //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  // }
+  span:hover {
+    background-color: hsla(0%, 0%, 0%, 0.1);
+    cursor: pointer;
+  }
 
-  .buttons {
-    position: sticky;
+  .newspaper-name {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+
+    & .newspaper {
+      text-align: center;
+      //   white-space: nowrap;
+      font-weight: 600;
+      text-transform: uppercase;
+      //   text-decoration: underline;
+      font-size: 1.2rem;
+      letter-spacing: 0.1ch;
+      font-family: "Playfair Display";
+    }
+  }
+
+  .article-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 4rem 2rem 0 0;
+    justify-content: space-around;
+    font-family: "Droid Serif";
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .article-info::before {
+    content: "Elena Deutscher";
+    position: absolute;
     top: 0;
-    z-index: 999;
-    background-color: #ffc680;
-    padding-bottom: 1rem;
-    border-radius: 0 0 0.5rem 0.5rem;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    left: 50%;
+    transform: translateY(-140%) translateX(-50%);
+  }
+
+  .article-header {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    text-decoration: underline;
+    font-family: "Playfair Display";
+  }
+
+  .article-subheader {
+    font-family: "Playfair Display";
+    line-height: 1.8rem;
+    // font-weight: 700;
+  }
+
+  .body {
+    & > p {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem 0;
+    }
+
+    & > h2 {
+      font-size: 1.5rem;
+    }
+
+    & .hide {
+      opacity: 0;
+    }
   }
 </style>

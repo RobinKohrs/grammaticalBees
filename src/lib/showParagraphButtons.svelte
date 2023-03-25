@@ -18,8 +18,6 @@
     para--;
   }
 
-  $: console.log("para: ", para);
-  $: console.log("length: ", totalParagraphs);
   function handleShowAll() {
     para = totalParagraphs;
   }
