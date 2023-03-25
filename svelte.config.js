@@ -10,6 +10,13 @@ const config = {
     adapter: adapter(),
   },
   preprocess: vitePreprocess(),
+  vitePlugin: {
+    experimental: {
+      inspector: {
+        showToggleButton: "always",
+      },
+    },
+  },
 };
 
 export default config;

@@ -8,21 +8,21 @@
     totalParagraphs = Object.keys(body).length - 1;
   }
 
+  export let para;
+
   function handlePlus() {
     if (para >= totalParagraphs) return;
-    para++;
+    para = para + 1;
   }
 
   function handleMinus() {
     if (para <= 1) return;
-    para--;
+    para = para - 1;
   }
 
   function handleShowAll() {
     para = totalParagraphs;
   }
-
-  export let para;
 </script>
 
 <div class="container flex justify-around flex-wrap">

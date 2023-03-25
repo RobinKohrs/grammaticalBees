@@ -103,13 +103,13 @@
   // get all the spans (each word) on the current page
   async function updateSpans() {
     spans = document.querySelectorAll("span");
-    console.log("spans: ", spans);
     [...spans].forEach((span) => {
       // if the span was already rendered, do not attach an event listener
       if (!span.hasAttribute("data-rendered")) {
         span.style.transform = "rotate3d(0, 0, 0, 0deg)";
         span.dataset.rendered = true;
         span.dataset.flipped = false;
+        span.dataset.word = span.innerText;
         span.addEventListener("click", () => {
           flipWord(span);
         });
@@ -118,7 +118,7 @@
   }
 
   // if the number of paragraphes changes, update the spans-list
-  $: if (showNParagraphs > 1 && part === "body") {
+  $: if (showNParagraphs > 1) {
     updateSpans();
   }
   $: currentTypes = $typeStore;
@@ -139,21 +139,23 @@
 
   async function flipWord(ele) {
     let w = ele.getBoundingClientRect().width;
-    let f = ele.dataset.flipped;
-    if (w < flippedTextWidth) {
-      w = flippedTextWidth;
-    }
+    let flipped = ele.dataset.flipped === "true";
 
-    if (f === "false") {
-      console.log("false");
+    // the spans text and type
+    let wordType = ele.dataset.wordType;
+    let wordText = ele.dataset.word;
+
+    // the new size of the flipped span has
+
+    if (!flipped) {
       ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
       ele.style.width = `${w}px`;
-      ele.style.color = "red";
       ele.style.textAlign = "center";
       ele.dataset.flipped = true;
-      ele.innerText = "flipped";
+      ele.innerText = wordType;
     } else {
       ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
+      ele.innerText = wordText;
       ele.dataset.flipped = false;
     }
   }
@@ -168,9 +170,8 @@
   </section>
 
   <section class="newspaper">
-    <!-- <TextPart {wordTypes} part={"newspaper"} text={"Ö1-Wissenschaft"} /> -->
     <div class="newspaper-name">
-      <span class="newspaper">Ö1-Wissenschaft</span>
+      <span class="newspaper" data-word-type={"noun"}>Ö1-Wissenschaft</span>
     </div>
   </section>
 
@@ -182,13 +183,15 @@
     </div>
   </section>
 
-  <div class="article-subheader">
-    {#each article.subheader.words as word, i}
-      <span>
-        {word.word}
-      </span>
-    {/each}
-  </div>
+  <section class="subheader">
+    <div class="article-subheader flex flex-wrap">
+      {#each article.subheader.words as word, i}
+        <span data-word-type={word.type}>
+          {word.word}&nbsp;
+        </span>
+      {/each}
+    </div>
+  </section>
 
   <section class="info">
     <div class="article-info">
@@ -214,6 +217,7 @@
 
               {#if nextWord && nextWord.type === "PUNCT"}
                 <span
+                  data-word-type={currentType}
                   style:color
                   class:hide={!currentTypes.includes(currentType) &&
                     currentTypes[0] !== "all"}
@@ -222,6 +226,7 @@
                 </span>
               {:else}
                 <span
+                  data-word-type={currentType}
                   style:color
                   class:hide={!currentTypes.includes(currentType) &&
                     currentTypes[0] !== "all"}
@@ -242,7 +247,7 @@
         {/if}
       {/each}
     </div>
-    <!-- <ShowParagraphButtons bind:para={showNParagraphs} /> -->
+    <ShowParagraphButtons bind:para={showNParagraphs} />
   </section>
 </div>
 
@@ -268,9 +273,9 @@
 
   span {
     opacity: 1;
-    transition-property: opacity, transform;
-    transition-duration: 200ms, 500ms;
-    transition-timing-function: linear, linear;
+    transition-property: opacity, transform, color;
+    transition-duration: 200ms, 500ms, 500ms;
+    transition-timing-function: linear, linear, linear;
   }
 
   span:hover {
@@ -324,12 +329,6 @@
     margin: 0.5rem 0;
     text-decoration: underline;
     font-family: "Playfair Display";
-  }
-
-  .article-subheader {
-    font-family: "Playfair Display";
-    line-height: 1.8rem;
-    // font-weight: 700;
   }
 
   .body {
