@@ -89,6 +89,8 @@
       border-right: 2px solid black;
       border-left: 2px solid black;
       border-bottom: 2px solid black;
+      background-color: white;
+      overflow: hidden;
 
       .buttons-container-text {
         text-align: center;

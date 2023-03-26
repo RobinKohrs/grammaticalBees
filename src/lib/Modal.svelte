@@ -3,12 +3,14 @@
 
   export let clickedWord;
   function handleClick() {
-    console.log("handleClick");
     clickedWord = undefined;
   }
 </script>
 
-<div class="modal-container fixed inset-0 grid place-items-center z-10">
+<div
+  class="modal-container fixed inset-0 grid place-items-center z-10"
+  on:click={handleClick}
+>
   <div
     class="modal-content-container relative border-2 border-slate-500 bg-slate-100 rounded-lg"
   >
