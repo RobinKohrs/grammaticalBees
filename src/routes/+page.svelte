@@ -197,9 +197,9 @@
       style:width={mobile ? "100%" : "140%"}
       style:transform={mobile ? "" : "translateX(-15%)"}
       style:font-size={mobile ? "1.2rem" : "1.4rem"}
-      style:margin={mobile ? "0" : "3rem 0"}
+      style:margin={mobile ? "2rem 0" : "3rem 0"}
     >
-      <div class="article-subheader flex flex-wrap">
+      <div class="article-subheader flex flex-wrap justify-center">
         {#each article.subheader.words as word, i}
           <span data-word-type={word.type}>{@html word.word}</span>
         {/each}
