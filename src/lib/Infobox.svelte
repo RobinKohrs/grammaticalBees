@@ -4,7 +4,8 @@
   export let showWordButtons;
   $: console.log("expanded", showWordButtons);
 
-  let expanded = true;
+  export let expanded = true;
+  export let showBody = false;
 </script>
 
 <div
@@ -21,6 +22,7 @@
       size={50}
       icon={"?"}
       handleClick={() => {
+        showBody = false;
         expanded = !expanded;
       }}
     />
@@ -32,6 +34,7 @@
       size={50}
       transform={false}
       handleClick={() => {
+        showBody = true;
         expanded = !expanded;
       }}
     />
@@ -67,11 +70,9 @@
 <style lang="scss">
   .infobox-container {
     position: fixed;
-    z-index: 11;
+    z-index: 2000;
     bottom: 0;
     left: 0;
-    width: 50px;
-    height: 50px;
     transition: all 0.2s linear;
     display: grid;
     justify-items: center;

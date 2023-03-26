@@ -13,7 +13,7 @@
 </script>
 
 <div
-  class="modal-close {position}"
+  class="modal-close {position} z-20"
   style:top
   style:left
   style:bottom

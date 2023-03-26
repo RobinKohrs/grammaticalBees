@@ -20,9 +20,9 @@
   let showBody = false;
   $: mobile = width < 768;
 
-  setTimeout(() => {
-    showBody = true;
-  }, 100);
+  // setTimeout(() => {
+  //   showBody = true;
+  // }, 100);
 
   function scrollToBottom() {
     window.scrollTo({
@@ -162,15 +162,15 @@
 </script>
 
 <!-- <svelte:window on:resize={resize} /> -->
-<svelte:window bind:innerWidth={width} />
+<!-- <svelte:window bind:innerWidth={width} /> -->
 
-<Infobox showWordButtons={true} />
-{#if showBody}
-  <div class="container relative" bind:this={bodyContainer}>
-    {#if clickedWord}
-      <Modal bind:clickedWord />
-    {/if}
+<div class="container relative" bind:this={bodyContainer}>
+  <Infobox showWordButtons={true} bind:showBody />
+  {#if clickedWord}
+    <Modal bind:clickedWord />
+  {/if}
 
+  {#if showBody}
     <Buttons
       {wordTypes}
       selected={$typeStore}
@@ -258,8 +258,8 @@
       </div>
       <ShowParagraphButtons bind:para={showNParagraphs} />
     </section>
-  </div>
-{/if}
+  {/if}
+</div>
 
 <style lang="scss">
   span {
