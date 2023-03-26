@@ -3,6 +3,7 @@
   import { setContext } from "svelte";
   import { slide, fade } from "svelte/transition";
   import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
+  import { tick } from "svelte";
 
   // data
   import article from "./../assets/article.json";
@@ -26,14 +27,13 @@
 
   let flippedTextWidth = 60;
   let showNParagraphs = 1;
+  let showModal;
 
   setContext("article", article);
 
   // components
   import Buttons from "$lib/textparts/buttons.svelte";
 
-  let spans;
-  let fakeContainer;
   let wordTypes = [
     {
       type: "all",
@@ -41,22 +41,22 @@
       color: "black",
     },
     {
-      type: "noun",
+      type: "Nomen",
       display: "Nomen",
       color: "#5F5B6B",
     },
     {
-      type: "verb",
+      type: "Verb",
       display: "Verb",
       color: "#DB504A",
     },
     {
-      type: "adj",
+      type: "Adjektiv",
       display: "Adjektiv",
       color: "#00916E",
     },
     {
-      type: "adv",
+      type: "Adverb",
       display: "Adverb",
       color: "#C8AD55",
     },
@@ -102,7 +102,11 @@
   }
 
   // get all the spans (each word) on the current page
+  let spans;
   async function updateSpans() {
+    // wait for the next tick to make sure the spans are rendered
+    await tick;
+    // get all the spans
     spans = document.querySelectorAll("span");
     [...spans].forEach((span) => {
       // if the span was already rendered, do not attach an event listener
@@ -139,44 +143,49 @@
   }
 
   async function flipWord(ele) {
-    let flipped = ele.dataset.flipped === "true";
+    console.log("do nothing");
+    // let flipped = ele.dataset.flipped === "true";
 
-    // the spans text and type
-    let wordType = ele.dataset.wordType;
-    let wordText = `${ele.dataset.word}`;
+    // // the spans text and type
+    // let wordType = ele.dataset.wordType;
+    // let wordText = `${ele.dataset.word}`;
 
-    // size of wordType
-    let typeFakeEle = document.createElement("span");
-    typeFakeEle.innerHTML = wordType;
-    fakeContainer.appendChild(typeFakeEle);
-    let fakeTypeWidth = typeFakeEle.offsetWidth;
+    // // size of wordType
+    // let typeFakeEle = document.createElement("span");
+    // typeFakeEle.innerHTML = wordType;
+    // fakeContainer.appendChild(typeFakeEle);
+    // let fakeTypeWidth = typeFakeEle.offsetWidth;
 
-    let textFakeEle = document.createElement("span");
-    textFakeEle.innerHTML = wordText;
-    fakeContainer.appendChild(textFakeEle);
-    let fakeTextWidth = textFakeEle.offsetWidth;
+    // let textFakeEle = document.createElement("span");
+    // textFakeEle.innerHTML = wordText;
+    // fakeContainer.appendChild(textFakeEle);
+    // let fakeTextWidth = textFakeEle.offsetWidth;
 
-    let w = fakeTextWidth > fakeTypeWidth ? fakeTextWidth : fakeTypeWidth + 4;
-    if (!flipped) {
-      ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
-      ele.style.width = w + "px";
-      ele.style.textAlign = "center";
-      ele.dataset.flipped = true;
-      ele.innerHTML = wordType + "&nbsp;";
-    } else {
-      ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
-      ele.style.width = w + "px";
-      ele.innerHTML = wordText;
-      ele.dataset.flipped = false;
-    }
+    // let w = fakeTextWidth > fakeTypeWidth ? fakeTextWidth : fakeTypeWidth + 4;
+    // if (!flipped) {
+    //   ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
+    //   ele.style.width = w + "px";
+    //   ele.style.textAlign = "center";
+    //   ele.dataset.flipped = true;
+    //   ele.innerHTML = wordType + "&nbsp;";
+    // } else {
+    //   ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
+    //   ele.style.width = w + "px";
+    //   ele.innerHTML = wordText;
+    //   ele.dataset.flipped = false;
+    // }
   }
 </script>
 
-<div class="container" bind:this={bodyContainer}>
-  <div
+<div class="container relative" bind:this={bodyContainer}>
+  <!-- <div
     class="fakeElements absolute w-0 h-0 overflow-hidden"
     bind:this={fakeContainer}
-  />
+  /> -->
+
+  {#if showModal}
+    <div class="modal absolute inset-0 grid items-center">MODAL</div>
+  {/if}
 
   <section class="word-buttons">
     <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
@@ -201,10 +210,9 @@
 
   <section class="subheader">
     <div class="article-subheader flex flex-wrap">
+      {console.log(article.subheader) || ""}
       {#each article.subheader.words as word, i}
-        <span data-word-type={word.type}>
-          {word.word}&nbsp;
-        </span>
+        <span data-word-type={word.type}>{@html word.word}</span>
       {/each}
     </div>
   </section>
@@ -236,19 +244,15 @@
                   data-word-type={currentType}
                   style:color
                   class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}
+                    currentTypes[0] !== "all"}>{currentWord}</span
                 >
-                  {currentWord}
-                </span>
               {:else}
                 <span
                   data-word-type={currentType}
                   style:color
                   class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}
+                    currentTypes[0] !== "all"}>{currentWord}</span
                 >
-                  {currentWord}&nbsp;
-                </span>
               {/if}
             {/each}
           </p>
@@ -292,6 +296,7 @@
     transition-property: opacity, transform, color;
     transition-duration: 200ms, 500ms, 500ms;
     transition-timing-function: linear, linear, linear;
+    white-space: pre-wrap;
   }
 
   span:hover {

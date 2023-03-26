@@ -5,23 +5,31 @@
     "words": [
       {
         "word": "Bienenschwärme",
-        "type": "noun",
-        "lemma": "Bienenschwärme"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "erzeugen",
-        "type": "verb",
-        "lemma": "erzeugen"
+        "type": "Verb"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "elektrische",
-        "type": "adj",
-        "lemma": "elektrisch"
+        "type": "Adjektiv"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Ladung",
-        "type": "noun",
-        "lemma": "Ladung"
+        "type": "Nomen"
       }
     ]
   },
@@ -31,208 +39,307 @@
     "words": [
       {
         "word": "Eine",
-        "type": "det",
-        "lemma": "ein"
+        "type": "det"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Studie",
-        "type": "noun",
-        "lemma": "Studie"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "aus",
-        "type": "adp",
-        "lemma": "aus"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "England",
-        "type": "propn",
-        "lemma": "England"
+        "type": "propn"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "zeigt",
-        "type": "verb",
-        "lemma": "zeigen"
+        "type": "Verb"
       },
       {
         "word": ":",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Bienen-",
-        "type": "x",
-        "lemma": "Biene"
+        "type": "x"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "und",
-        "type": "cconj",
-        "lemma": "und"
+        "type": "cconj"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "andere",
-        "type": "adj",
-        "lemma": "anderer"
+        "type": "pron"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Insektenschwärme",
-        "type": "noun",
-        "lemma": "Insektenschwärme"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "erzeugen",
-        "type": "verb",
-        "lemma": "erzeugen"
+        "type": "Verb"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "elektrische",
-        "type": "adj",
-        "lemma": "elektrisch"
+        "type": "Adjektiv"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Ladung",
-        "type": "noun",
-        "lemma": "Ladung"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "–",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "ähnlich",
-        "type": "adv",
-        "lemma": "ähnlich"
+        "type": "Adverb"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "wie",
-        "type": "adp",
-        "lemma": "wie"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Gewitterwolken",
-        "type": "noun",
-        "lemma": "Gewitterwolke"
+        "type": "Nomen"
       },
       {
         "word": ".",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Das",
-        "type": "pron",
-        "lemma": "der"
+        "type": "pron"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "könnte",
-        "type": "aux",
-        "lemma": "können"
+        "type": "aux"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "nicht",
-        "type": "part",
-        "lemma": "nicht"
+        "type": "part"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "nur",
-        "type": "adv",
-        "lemma": "nur"
+        "type": "Adverb"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "den",
-        "type": "det",
-        "lemma": "der"
+        "type": "det"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Bienen",
-        "type": "noun",
-        "lemma": "Bienen"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "helfen",
-        "type": "verb",
-        "lemma": "helfen"
+        "type": "Verb"
       },
       {
         "word": ",",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Nektar",
-        "type": "noun",
-        "lemma": "Nektar"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "zu",
-        "type": "part",
-        "lemma": "zu"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "finden",
-        "type": "verb",
-        "lemma": "finden"
+        "type": "Verb"
       },
       {
         "word": ",",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "sondern",
-        "type": "cconj",
-        "lemma": "sondern"
+        "type": "cconj"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "auch",
-        "type": "adv",
-        "lemma": "auch"
+        "type": "Adverb"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "zum",
-        "type": "adp",
-        "lemma": "zu"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Transport",
-        "type": "noun",
-        "lemma": "Transport"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "von",
-        "type": "adp",
-        "lemma": "von"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Wüstenstaub",
-        "type": "noun",
-        "lemma": "Wüstenstaub"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "über",
-        "type": "adp",
-        "lemma": "über"
+        "type": "Adposition"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "viele",
-        "type": "det",
-        "lemma": "vieler"
+        "type": "det"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "Kilometer",
-        "type": "noun",
-        "lemma": "Kilometer"
+        "type": "Nomen"
+      },
+      {
+        "word": " ",
+        "type": "space"
       },
       {
         "word": "beitragen",
-        "type": "verb",
-        "lemma": "beitragen"
+        "type": "Verb"
       },
       {
         "word": ".",
-        "type": "punct",
-        "lemma": "--"
+        "type": "punct"
       }
     ]
   },
@@ -243,318 +350,471 @@
       "words": [
         {
           "word": "Neben",
-          "type": "adp",
-          "lemma": "neben"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "einem",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Magnetfeld",
-          "type": "noun",
-          "lemma": "Magnetfeld"
+          "type": "propn"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "an",
-          "type": "adp",
-          "lemma": "an"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dem",
-          "type": "pron",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sich",
-          "type": "pron",
-          "lemma": "sich"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "beispielsweise",
-          "type": "adv",
-          "lemma": "beispielsweise"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Vögel",
-          "type": "noun",
-          "lemma": "Vögel"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "orientieren",
-          "type": "verb",
-          "lemma": "orientieren"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "um",
-          "type": "sconj",
-          "lemma": "um"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ihre",
-          "type": "det",
-          "lemma": "ihr"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Winterquartiere",
-          "type": "noun",
-          "lemma": "Winterquartiere"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "part",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "finden",
-          "type": "verb",
-          "lemma": "finden"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "hat",
-          "type": "aux",
-          "lemma": "haben"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Erde",
-          "type": "noun",
-          "lemma": "Erde"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "auch",
-          "type": "adv",
-          "lemma": "auch"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ein",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrostatisches",
-          "type": "adj",
-          "lemma": "elektrostatisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Feld",
-          "type": "noun",
-          "lemma": "Feld"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Global",
-          "type": "adv",
-          "lemma": "Global"
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "gesehen",
-          "type": "verb",
-          "lemma": "sehen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Erdoberfläche",
-          "type": "noun",
-          "lemma": "Erdoberfläche"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "negativ",
-          "type": "adv",
-          "lemma": "negativ"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "geladen",
-          "type": "verb",
-          "lemma": "laden"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ionosphäre",
-          "type": "noun",
-          "lemma": "Ionosphär"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "pron",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ungefähr",
-          "type": "adv",
-          "lemma": "ungefähr"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "60",
-          "type": "num",
-          "lemma": "60"
+          "type": "num"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Kilometer",
-          "type": "noun",
-          "lemma": "Kilometer"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Höhe",
-          "type": "noun",
-          "lemma": "Höhe"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "beginnt",
-          "type": "verb",
-          "lemma": "beginnen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "positiv",
-          "type": "adv",
-          "lemma": "positiv"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "geladen",
-          "type": "verb",
-          "lemma": "laden"
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wetterereignisse",
-          "type": "noun",
-          "lemma": "Wetterereignis"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wie",
-          "type": "adp",
-          "lemma": "wie"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wolkenbildung",
-          "type": "noun",
-          "lemma": "Wolkenbildung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "oder",
-          "type": "cconj",
-          "lemma": "oder"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blitzeinschläge",
-          "type": "noun",
-          "lemma": "Blitzeinschlag"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sowie",
-          "type": "cconj",
-          "lemma": "sowie"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "viele",
-          "type": "det",
-          "lemma": "vieler"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "andere",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Faktoren",
-          "type": "noun",
-          "lemma": "Faktor"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "können",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "das",
-          "type": "det",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Feld",
-          "type": "noun",
-          "lemma": "Feld"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aber",
-          "type": "adv",
-          "lemma": "aber"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "beeinflussen",
-          "type": "verb",
-          "lemma": "beeinflussen"
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -564,468 +824,675 @@
       "words": [
         {
           "word": "Manchmal",
-          "type": "adv",
-          "lemma": "manchmal"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "finden",
-          "type": "verb",
-          "lemma": "finden"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wissenschaftler",
-          "type": "noun",
-          "lemma": "Wissenschaftler"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wissenschaftlerinnen",
-          "type": "noun",
-          "lemma": "Wissenschaftlerinn"
+          "type": "Nomen"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "pron",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "atmosphärische",
-          "type": "adj",
-          "lemma": "atmosphärisch"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Elektrizität",
-          "type": "noun",
-          "lemma": "Elektrizität"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "messen",
-          "type": "verb",
-          "lemma": "messen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dabei",
-          "type": "adv",
-          "lemma": "dabei"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Anomalien",
-          "type": "propn",
-          "lemma": "Anomalien"
+          "type": "propn"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ein",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Forschungsteam",
-          "type": "noun",
-          "lemma": "Forschungsteam"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aus",
-          "type": "adp",
-          "lemma": "aus"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "England",
-          "type": "propn",
-          "lemma": "England"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "fand",
-          "type": "verb",
-          "lemma": "finden"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nun",
-          "type": "adv",
-          "lemma": "nun"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "mögliche",
-          "type": "adj",
-          "lemma": "möglich"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Erklärung",
-          "type": "noun",
-          "lemma": "Erklärung"
+          "type": "Nomen"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "was",
-          "type": "pron",
-          "lemma": "wer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "für",
-          "type": "adp",
-          "lemma": "für"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "diese",
-          "type": "det",
-          "lemma": "dieser"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Anomalien",
-          "type": "propn",
-          "lemma": "Anomali"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "verantwortlich",
-          "type": "adv",
-          "lemma": "verantwortlich"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sein",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "könnte",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ihre",
-          "type": "det",
-          "lemma": "ihr"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ergebnisse",
-          "type": "noun",
-          "lemma": "Ergebnis"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "veröffentlichten",
-          "type": "verb",
-          "lemma": "veröffentlichen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "im",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Fachmagazin",
-          "type": "noun",
-          "lemma": "Fachmagazin"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "„",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": "iScience",
-          "type": "x",
-          "lemma": "iScience"
+          "type": "x"
         },
         {
           "word": "“",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "„",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": "Mit",
-          "type": "adp",
-          "lemma": "mit"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "unserer",
-          "type": "det",
-          "lemma": "unser"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Studie",
-          "type": "noun",
-          "lemma": "Studie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "haben",
-          "type": "aux",
-          "lemma": "haben"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wir",
-          "type": "pron",
-          "lemma": "wir"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "gezeigt",
-          "type": "verb",
-          "lemma": "zeigen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "es",
-          "type": "pron",
-          "lemma": "es"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "auch",
-          "type": "adv",
-          "lemma": "auch"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wichtig",
-          "type": "adv",
-          "lemma": "wichtig"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "den",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Einfluss",
-          "type": "noun",
-          "lemma": "Einfluss"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "biologischer",
-          "type": "adj",
-          "lemma": "biologisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Faktoren",
-          "type": "noun",
-          "lemma": "Faktor"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "part",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "berücksichtigen",
-          "type": "verb",
-          "lemma": "berücksichtigen"
+          "type": "Verb"
         },
         {
           "word": "“",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "so",
-          "type": "adv",
-          "lemma": "so"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Liam",
-          "type": "propn",
-          "lemma": "Liam"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "O",
-          "type": "propn",
-          "lemma": "O"
+          "type": "propn"
         },
         {
           "word": "’",
-          "type": "propn",
-          "lemma": "’"
+          "type": "x"
         },
         {
           "word": "Reilly",
-          "type": "x",
-          "lemma": "Reilly"
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "von",
-          "type": "adp",
-          "lemma": "von"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "University",
-          "type": "propn",
-          "lemma": "University"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "of",
-          "type": "propn",
-          "lemma": "of"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bristol",
-          "type": "propn",
-          "lemma": "Bristol"
+          "type": "propn"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Er",
-          "type": "pron",
-          "lemma": "er"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "anderen",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Studienautoren",
-          "type": "noun",
-          "lemma": "Studienautor"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "-autorinnen",
-          "type": "noun",
-          "lemma": "autorinnen"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "untersuchten",
-          "type": "verb",
-          "lemma": "untersuchen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "von",
-          "type": "adp",
-          "lemma": "von"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen-",
-          "type": "x",
-          "lemma": "Biene"
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "anderen",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Insektenschwärmen",
-          "type": "noun",
-          "lemma": "Insektenschwärm"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -1035,28 +1502,39 @@
       "words": [
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "durch",
-          "type": "adp",
-          "lemma": "durch"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Luftreibung",
-          "type": "noun",
-          "lemma": "Luftreibung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "positiv",
-          "type": "adv",
-          "lemma": "positiv"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "geladen",
-          "type": "verb",
-          "lemma": "laden"
+          "type": "Verb"
         }
       ]
     },
@@ -1066,363 +1544,543 @@
       "words": [
         {
           "word": "Wird",
-          "type": "aux",
-          "lemma": "werden"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "es",
-          "type": "pron",
-          "lemma": "es"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "einem",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienenstock",
-          "type": "noun",
-          "lemma": "Bienenstock"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "part",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "voll",
-          "type": "adv",
-          "lemma": "voll"
+          "type": "Adverb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "kommt",
-          "type": "verb",
-          "lemma": "kommen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "es",
-          "type": "pron",
-          "lemma": "es"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "vor",
-          "type": "adp",
-          "lemma": "vor"
+          "type": "Adposition"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienenkönigin",
-          "type": "noun",
-          "lemma": "Bienenkönigin"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zusammen",
-          "type": "adv",
-          "lemma": "zusammen"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "mit",
-          "type": "adp",
-          "lemma": "mit"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ungefähr",
-          "type": "adv",
-          "lemma": "ungefähr"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "12.000",
-          "type": "num",
-          "lemma": "12.000"
+          "type": "num"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Arbeiterbienen",
-          "type": "noun",
-          "lemma": "Arbeiterbien"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "den",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Stock",
-          "type": "noun",
-          "lemma": "Stock"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "verlässt",
-          "type": "verb",
-          "lemma": "verlässen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "um",
-          "type": "sconj",
-          "lemma": "um"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ein",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "neues",
-          "type": "adj",
-          "lemma": "neu"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienenvolk",
-          "type": "noun",
-          "lemma": "Bienenvolk"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "part",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "gründen",
-          "type": "verb",
-          "lemma": "gründen"
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Diesen",
-          "type": "det",
-          "lemma": "dieser"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Schwarmflug",
-          "type": "noun",
-          "lemma": "Schwarmflug"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "untersuchte",
-          "type": "verb",
-          "lemma": "untersuchen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "das",
-          "type": "det",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Forschungsteam",
-          "type": "noun",
-          "lemma": "Forschungsteam"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ergebnisse",
-          "type": "noun",
-          "lemma": "Ergebnis"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Studie",
-          "type": "noun",
-          "lemma": "Studie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zeigen",
-          "type": "verb",
-          "lemma": "zeigen"
+          "type": "Verb"
         },
         {
           "word": ":",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "andere",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Insekten",
-          "type": "noun",
-          "lemma": "Insekt"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wie",
-          "type": "adp",
-          "lemma": "wie"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Heuschrecken",
-          "type": "noun",
-          "lemma": "Heuschrecke"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "können",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "großen",
-          "type": "adj",
-          "lemma": "groß"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Schwärmen",
-          "type": "noun",
-          "lemma": "Schwärme"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "erzeugen",
-          "type": "verb",
-          "lemma": "erzeugen"
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Dadurch",
-          "type": "adv",
-          "lemma": "dadurch"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "können",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Insekten",
-          "type": "noun",
-          "lemma": "Insekt"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ähnliche",
-          "type": "adj",
-          "lemma": "ähnlich"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Auswirkung",
-          "type": "noun",
-          "lemma": "Auswirkung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "auf",
-          "type": "adp",
-          "lemma": "auf"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "atmosphärische",
-          "type": "adj",
-          "lemma": "atmosphärisch"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Elektrizität",
-          "type": "noun",
-          "lemma": "Elektrizität"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "haben",
-          "type": "verb",
-          "lemma": "haben"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wie",
-          "type": "adp",
-          "lemma": "wie"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wetterereignisse",
-          "type": "noun",
-          "lemma": "Wetterereignis"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -1432,418 +2090,623 @@
       "words": [
         {
           "word": "Das",
-          "type": "pron",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "heißt",
-          "type": "verb",
-          "lemma": "heißen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nicht",
-          "type": "part",
-          "lemma": "nicht"
+          "type": "part"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Tiere",
-          "type": "noun",
-          "lemma": "Tier"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "das",
-          "type": "det",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Wetter",
-          "type": "noun",
-          "lemma": "Wetter"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "beeinflussen",
-          "type": "verb",
-          "lemma": "beeinflussen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "können",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sondern",
-          "type": "cconj",
-          "lemma": "sondern"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nur",
-          "type": "adv",
-          "lemma": "nur"
+          "type": "Adverb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladungsverteilung",
-          "type": "noun",
-          "lemma": "Ladungsverteilung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aufweisen",
-          "type": "verb",
-          "lemma": "aufweisen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "können",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ähnlich",
-          "type": "adv",
-          "lemma": "ähnlich"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladungsverteilung",
-          "type": "noun",
-          "lemma": "Ladungsverteilung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "einer",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Schönwetter-",
-          "type": "x",
-          "lemma": "Schönwetter"
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "oder",
-          "type": "cconj",
-          "lemma": "oder"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Gewitterwolke",
-          "type": "noun",
-          "lemma": "Gewitterwolke"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Letzteres",
-          "type": "pron",
-          "lemma": "letzterer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "abhängig",
-          "type": "adv",
-          "lemma": "abhängig"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "von",
-          "type": "adp",
-          "lemma": "von"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Insektenart",
-          "type": "noun",
-          "lemma": "Insektenart"
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Schwarmdichte",
-          "type": "noun",
-          "lemma": "Schwarmdicht"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Forscherinnen",
-          "type": "noun",
-          "lemma": "Forscherinn"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Forscher",
-          "type": "noun",
-          "lemma": "Forscher"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "gehen",
-          "type": "verb",
-          "lemma": "gehen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "davon",
-          "type": "adv",
-          "lemma": "davon"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aus",
-          "type": "adp",
-          "lemma": "aus"
+          "type": "Adposition"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "durch",
-          "type": "adp",
-          "lemma": "durch"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ihre",
-          "type": "det",
-          "lemma": "ihr"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Reibung",
-          "type": "noun",
-          "lemma": "Reibung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "mit",
-          "type": "adp",
-          "lemma": "mit"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Luft",
-          "type": "noun",
-          "lemma": "Luft"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "entsteht",
-          "type": "verb",
-          "lemma": "entstehen"
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "andere",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Erklärung",
-          "type": "noun",
-          "lemma": "Erklärung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "mit",
-          "type": "adp",
-          "lemma": "mit"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "kleinen",
-          "type": "adj",
-          "lemma": "klein"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Partikeln",
-          "type": "noun",
-          "lemma": "Partikel"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Luft",
-          "type": "noun",
-          "lemma": "Luft"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "kollidieren",
-          "type": "verb",
-          "lemma": "kollidieren"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "so",
-          "type": "adv",
-          "lemma": "so"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aufgeladen",
-          "type": "verb",
-          "lemma": "aufgeladen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "werden",
-          "type": "aux",
-          "lemma": "werden"
+          "type": "aux"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -1853,23 +2716,31 @@
       "words": [
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "hilft",
-          "type": "verb",
-          "lemma": "helfen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "bei",
-          "type": "adp",
-          "lemma": "bei"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Nektarsuche",
-          "type": "noun",
-          "lemma": "Nektarsuche"
+          "type": "Nomen"
         }
       ]
     },
@@ -1879,463 +2750,679 @@
       "words": [
         {
           "word": "Die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "positive",
-          "type": "adj",
-          "lemma": "positiv"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "könnte",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ihnen",
-          "type": "pron",
-          "lemma": "ihnen"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "helfen",
-          "type": "verb",
-          "lemma": "helfen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blumen",
-          "type": "noun",
-          "lemma": "Blume"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "part",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "finden",
-          "type": "verb",
-          "lemma": "finden"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "pron",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wie",
-          "type": "adp",
-          "lemma": "wie"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Erdoberfläche",
-          "type": "noun",
-          "lemma": "Erdoberfläche"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "negativ",
-          "type": "adv",
-          "lemma": "negativ"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "geladen",
-          "type": "verb",
-          "lemma": "laden"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sind",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Landet",
-          "type": "verb",
-          "lemma": "Landet"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Biene",
-          "type": "noun",
-          "lemma": "Biene"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "auf",
-          "type": "adp",
-          "lemma": "auf"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blume",
-          "type": "noun",
-          "lemma": "Blume"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "tauschen",
-          "type": "verb",
-          "lemma": "tauschen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladungen",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "aus",
-          "type": "adp",
-          "lemma": "aus"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blume",
-          "type": "noun",
-          "lemma": "Blume"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "verändert",
-          "type": "verb",
-          "lemma": "verändern"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "sich",
-          "type": "pron",
-          "lemma": "sich"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "kurzzeitig",
-          "type": "adv",
-          "lemma": "kurzzeitig"
+          "type": "Adverb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "so",
-          "type": "adv",
-          "lemma": "so"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "O",
-          "type": "propn",
-          "lemma": "O"
+          "type": "propn"
         },
         {
           "word": "’",
-          "type": "x",
-          "lemma": "’"
+          "type": "x"
         },
         {
           "word": "Reilly",
-          "type": "x",
-          "lemma": "Reilly"
+          "type": "x"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "„",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": "Es",
-          "type": "pron",
-          "lemma": "es"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nette",
-          "type": "adj",
-          "lemma": "nett"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Idee",
-          "type": "noun",
-          "lemma": "Idee"
+          "type": "Nomen"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "das",
-          "type": "det",
-          "lemma": "der"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Feld",
-          "type": "noun",
-          "lemma": "Feld"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blume",
-          "type": "noun",
-          "lemma": "Blume"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "dann",
-          "type": "adv",
-          "lemma": "dann"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "anders",
-          "type": "adv",
-          "lemma": "anders"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Biene",
-          "type": "noun",
-          "lemma": "Biene"
+          "type": "Nomen"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "pron",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "vorbeifliegt",
-          "type": "verb",
-          "lemma": "vorbeifliegen"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ohne",
-          "type": "sconj",
-          "lemma": "ohne"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zu",
-          "type": "adp",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Landen",
-          "type": "noun",
-          "lemma": "landen"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nur",
-          "type": "adv",
-          "lemma": "nur"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "durch",
-          "type": "adp",
-          "lemma": "durch"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "erkennen",
-          "type": "verb",
-          "lemma": "erkennen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "kann",
-          "type": "aux",
-          "lemma": "können"
+          "type": "aux"
         },
         {
           "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "ob",
-          "type": "sconj",
-          "lemma": "ob"
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "diese",
-          "type": "det",
-          "lemma": "dieser"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Blume",
-          "type": "noun",
-          "lemma": "Blume"
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "bereits",
-          "type": "adv",
-          "lemma": "bereits"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "von",
-          "type": "adp",
-          "lemma": "von"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "einer",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "anderen",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Biene",
-          "type": "noun",
-          "lemma": "Biene"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "besucht",
-          "type": "verb",
-          "lemma": "besuchen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wurde",
-          "type": "aux",
-          "lemma": "werden"
+          "type": "aux"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
           "word": "“",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -2345,283 +3432,419 @@
       "words": [
         {
           "word": "Auch",
-          "type": "adv",
-          "lemma": "auch"
-        },
-        {
-          "word": "die",
-          "type": "det",
-          "lemma": "der"
-        },
-        {
-          "word": "Pollen",
-          "type": "noun",
-          "lemma": "Poll"
-        },
-        {
-          "word": "sind",
-          "type": "aux",
-          "lemma": "sein"
-        },
-        {
-          "word": "laut",
-          "type": "adp",
-          "lemma": "laut"
-        },
-        {
-          "word": "O",
-          "type": "propn",
-          "lemma": "O"
-        },
-        {
-          "word": "’",
-          "type": "propn",
-          "lemma": "’"
-        },
-        {
-          "word": "Reilly",
-          "type": "x",
-          "lemma": "Reilly"
+          "type": "Adverb"
         },
         {
           "word": " ",
-          "type": "space",
-          "lemma": " "
+          "type": "space"
+        },
+        {
+          "word": "die",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Pollen",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "sind",
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "laut",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "O",
+          "type": "propn"
+        },
+        {
+          "word": "’",
+          "type": "x"
+        },
+        {
+          "word": "Reilly",
+          "type": "x"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "negativ",
-          "type": "adv",
-          "lemma": "negativ"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "geladen",
-          "type": "verb",
-          "lemma": "laden"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "haften",
-          "type": "verb",
-          "lemma": "haften"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "so",
-          "type": "adv",
-          "lemma": "so"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "gut",
-          "type": "adv",
-          "lemma": "gut"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "an",
-          "type": "adp",
-          "lemma": "an"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "den",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Haaren",
-          "type": "noun",
-          "lemma": "Haar"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Biene",
-          "type": "noun",
-          "lemma": "Biene"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Aber",
-          "type": "cconj",
-          "lemma": "aber"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nicht",
-          "type": "part",
-          "lemma": "nicht"
+          "type": "part"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "nur",
-          "type": "adv",
-          "lemma": "nur"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Bienen",
-          "type": "noun",
-          "lemma": "Bie"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "andere",
-          "type": "adj",
-          "lemma": "anderer"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Insekten",
-          "type": "noun",
-          "lemma": "Insekt"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "haben",
-          "type": "verb",
-          "lemma": "haben"
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "eine",
-          "type": "det",
-          "lemma": "ein"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Auch",
-          "type": "adv",
-          "lemma": "auch"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Vögel",
-          "type": "noun",
-          "lemma": "Vogel"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Mikroorganismen",
-          "type": "noun",
-          "lemma": "Mikroorganisme"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "tragen",
-          "type": "verb",
-          "lemma": "tragen"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "zur",
-          "type": "adp",
-          "lemma": "zu"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "elektrischen",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Atmosphäre",
-          "type": "noun",
-          "lemma": "Atmosphäre"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "bei",
-          "type": "adp",
-          "lemma": "bei"
+          "type": "Adposition"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Diese",
-          "type": "pron",
-          "lemma": "dieser"
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "verbessert",
-          "type": "verb",
-          "lemma": "verbessern"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "wiederum",
-          "type": "adv",
-          "lemma": "wiederum"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "den",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Transport",
-          "type": "noun",
-          "lemma": "Transport"
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "von",
-          "type": "adp",
-          "lemma": "von"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Partikeln",
-          "type": "noun",
-          "lemma": "Partikel"
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Luft",
-          "type": "noun",
-          "lemma": "Luft"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         }
       ]
     },
@@ -2631,548 +3854,791 @@
       "words": [
         {
           "word": "In",
-          "type": "adp",
-          "lemma": "in"
-        },
-        {
-          "word": "der",
-          "type": "det",
-          "lemma": "der"
-        },
-        {
-          "word": "Studie",
-          "type": "noun",
-          "lemma": "Studie"
-        },
-        {
-          "word": "berechneten",
-          "type": "verb",
-          "lemma": "berechneen"
-        },
-        {
-          "word": "O",
-          "type": "propn",
-          "lemma": "O"
-        },
-        {
-          "word": "’",
-          "type": "propn",
-          "lemma": "’"
-        },
-        {
-          "word": "Reilly",
-          "type": "x",
-          "lemma": "Reilly"
+          "type": "Adposition"
         },
         {
           "word": " ",
-          "type": "space",
-          "lemma": " "
-        },
-        {
-          "word": "und",
-          "type": "cconj",
-          "lemma": "und"
-        },
-        {
-          "word": "seine",
-          "type": "det",
-          "lemma": "sein"
-        },
-        {
-          "word": "Kolleginnen",
-          "type": "noun",
-          "lemma": "Kollegin"
-        },
-        {
-          "word": "und",
-          "type": "cconj",
-          "lemma": "und"
-        },
-        {
-          "word": "Kollegen",
-          "type": "noun",
-          "lemma": "Kollege"
-        },
-        {
-          "word": "auch",
-          "type": "adv",
-          "lemma": "auch"
-        },
-        {
-          "word": "die",
-          "type": "det",
-          "lemma": "der"
-        },
-        {
-          "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
-        },
-        {
-          "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
-        },
-        {
-          "word": "von",
-          "type": "adp",
-          "lemma": "von"
-        },
-        {
-          "word": "Wüstenheuschrecken",
-          "type": "noun",
-          "lemma": "Wüstenheuschrecke"
-        },
-        {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "die",
-          "type": "pron",
-          "lemma": "der"
-        },
-        {
-          "word": "durch",
-          "type": "adp",
-          "lemma": "durch"
-        },
-        {
-          "word": "Schwärme",
-          "type": "noun",
-          "lemma": "Schwärme"
-        },
-        {
-          "word": "mit",
-          "type": "adp",
-          "lemma": "mit"
-        },
-        {
-          "word": "„",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "biblischem",
-          "type": "adj",
-          "lemma": "biblisch"
-        },
-        {
-          "word": "Ausmaß",
-          "type": "noun",
-          "lemma": "Ausmaß"
-        },
-        {
-          "word": "“",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "so",
-          "type": "adv",
-          "lemma": "so"
-        },
-        {
-          "word": "O",
-          "type": "propn",
-          "lemma": "O"
-        },
-        {
-          "word": "’",
-          "type": "propn",
-          "lemma": "’"
-        },
-        {
-          "word": "Reilly",
-          "type": "x",
-          "lemma": "Reilly"
-        },
-        {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "beispielsweise",
-          "type": "adv",
-          "lemma": "beispielsweise"
-        },
-        {
-          "word": "in",
-          "type": "adp",
-          "lemma": "in"
-        },
-        {
-          "word": "Afrika",
-          "type": "propn",
-          "lemma": "Afrika"
-        },
-        {
-          "word": "immer",
-          "type": "adv",
-          "lemma": "immer"
-        },
-        {
-          "word": "wieder",
-          "type": "adv",
-          "lemma": "wieder"
-        },
-        {
-          "word": "große",
-          "type": "adj",
-          "lemma": "groß"
-        },
-        {
-          "word": "Schäden",
-          "type": "noun",
-          "lemma": "Schaden"
-        },
-        {
-          "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "type": "space"
         },
         {
           "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
         },
         {
-          "word": "Landwirtschaft",
-          "type": "noun",
-          "lemma": "Landwirtschaft"
-        },
-        {
-          "word": "verursachen",
-          "type": "verb",
-          "lemma": "verursachen"
-        },
-        {
-          "word": ".",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "In",
-          "type": "adp",
-          "lemma": "in"
-        },
-        {
-          "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "Studie",
-          "type": "noun",
-          "lemma": "Studie"
+          "type": "Nomen"
         },
         {
-          "word": "spekulieren",
-          "type": "verb",
-          "lemma": "spekulieren"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "word": "berechneten",
+          "type": "Nomen"
         },
         {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "ob",
-          "type": "sconj",
-          "lemma": "ob"
+          "word": "O",
+          "type": "propn"
         },
         {
-          "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "word": "’",
+          "type": "x"
         },
         {
-          "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "word": "Reilly",
+          "type": "x"
         },
         {
-          "word": "Ladung",
-          "type": "noun",
-          "lemma": "Ladung"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "der",
-          "type": "det",
-          "lemma": "der"
-        },
-        {
-          "word": "Insekten",
-          "type": "noun",
-          "lemma": "Insekt"
-        },
-        {
-          "word": "auch",
-          "type": "adv",
-          "lemma": "auch"
-        },
-        {
-          "word": "zum",
-          "type": "adp",
-          "lemma": "zu"
-        },
-        {
-          "word": "Transport",
-          "type": "noun",
-          "lemma": "Transport"
-        },
-        {
-          "word": "von",
-          "type": "adp",
-          "lemma": "von"
-        },
-        {
-          "word": "Wüstenstaub",
-          "type": "noun",
-          "lemma": "Wüstenstaub"
-        },
-        {
-          "word": "über",
-          "type": "adp",
-          "lemma": "über"
-        },
-        {
-          "word": "mehrere",
-          "type": "det",
-          "lemma": "mehrere"
-        },
-        {
-          "word": "Kilometer",
-          "type": "noun",
-          "lemma": "Kilometer"
-        },
-        {
-          "word": "beiträgt",
-          "type": "verb",
-          "lemma": "beitragen"
-        },
-        {
-          "word": ".",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "„",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "Es",
-          "type": "pron",
-          "lemma": "es"
-        },
-        {
-          "word": "ist",
-          "type": "aux",
-          "lemma": "sein"
-        },
-        {
-          "word": "verlockend",
-          "type": "adv",
-          "lemma": "verlockend"
-        },
-        {
-          "word": "zu",
-          "type": "part",
-          "lemma": "zu"
-        },
-        {
-          "word": "denken",
-          "type": "verb",
-          "lemma": "denken"
-        },
-        {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "dass",
-          "type": "sconj",
-          "lemma": "dass"
-        },
-        {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
-        },
-        {
-          "word": "wenn",
-          "type": "sconj",
-          "lemma": "wenn"
-        },
-        {
-          "word": "Wüstenheuschrecken",
-          "type": "noun",
-          "lemma": "wüstenheuschrecken"
-        },
-        {
-          "word": "in",
-          "type": "adp",
-          "lemma": "in"
-        },
-        {
-          "word": "großen",
-          "type": "adj",
-          "lemma": "groß"
-        },
-        {
-          "word": "Schwärmen",
-          "type": "noun",
-          "lemma": "Schwärme"
-        },
-        {
-          "word": "zusammenkommen",
-          "type": "verb",
-          "lemma": "zusammenkommen"
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "und",
-          "type": "cconj",
-          "lemma": "und"
+          "type": "cconj"
         },
         {
-          "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "das",
-          "type": "det",
-          "lemma": "der"
+          "word": "seine",
+          "type": "det"
         },
         {
-          "word": "lokale",
-          "type": "adj",
-          "lemma": "lokal"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "elektrische",
-          "type": "adj",
-          "lemma": "elektrisch"
+          "word": "Kolleginnen",
+          "type": "Nomen"
         },
         {
-          "word": "Feld",
-          "type": "noun",
-          "lemma": "Feld"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "verändern",
-          "type": "verb",
-          "lemma": "verändern"
+          "word": "und",
+          "type": "cconj"
         },
         {
-          "word": ",",
-          "type": "punct",
-          "lemma": "--"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "sie",
-          "type": "pron",
-          "lemma": "sie"
+          "word": "Kollegen",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "auch",
-          "type": "adv",
-          "lemma": "auch"
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
         },
         {
           "word": "die",
-          "type": "det",
-          "lemma": "der"
+          "type": "det"
         },
         {
-          "word": "Menge",
-          "type": "noun",
-          "lemma": "Menge"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "an",
-          "type": "adp",
-          "lemma": "an"
+          "word": "elektrische",
+          "type": "Adjektiv"
         },
         {
-          "word": "Wüstenstaub",
-          "type": "noun",
-          "lemma": "Wüstenstaub"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "in",
-          "type": "adp",
-          "lemma": "in"
+          "word": "Ladung",
+          "type": "Nomen"
         },
         {
-          "word": "der",
-          "type": "det",
-          "lemma": "der"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "Luft",
-          "type": "noun",
-          "lemma": "Luft"
+          "word": "von",
+          "type": "Adposition"
         },
         {
-          "word": "beeinflussen",
-          "type": "verb",
-          "lemma": "beeinflussen"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "word": "Wüstenheuschrecken",
+          "type": "Nomen"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "die",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "durch",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Schwärme",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "mit",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "„",
+          "type": "punct"
+        },
+        {
+          "word": "biblischem",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Ausmaß",
+          "type": "Nomen"
         },
         {
           "word": "“",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
         },
         {
-          "word": "Weitere",
-          "type": "adj",
-          "lemma": "weit"
+          "word": ",",
+          "type": "punct"
         },
         {
-          "word": "Forschung",
-          "type": "noun",
-          "lemma": "Forschung"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "sei",
-          "type": "aux",
-          "lemma": "sein"
+          "word": "so",
+          "type": "Adverb"
         },
         {
-          "word": "aber",
-          "type": "adv",
-          "lemma": "aber"
+          "word": " ",
+          "type": "space"
         },
         {
-          "word": "notwendig",
-          "type": "adv",
-          "lemma": "notwendig"
+          "word": "O",
+          "type": "propn"
+        },
+        {
+          "word": "’",
+          "type": "x"
+        },
+        {
+          "word": "Reilly",
+          "type": "x"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "beispielsweise",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "in",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Afrika",
+          "type": "propn"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "immer",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "wieder",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "große",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Schäden",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "in",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "der",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Landwirtschaft",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "verursachen",
+          "type": "Verb"
         },
         {
           "word": ".",
-          "type": "punct",
-          "lemma": "--"
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "In",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "der",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Studie",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "spekulieren",
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "sie",
+          "type": "pron"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "ob",
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "die",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "elektrische",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Ladung",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "der",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Insekten",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "auch",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "zum",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Transport",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "von",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Wüstenstaub",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "über",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "mehrere",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Kilometer",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "beiträgt",
+          "type": "Verb"
+        },
+        {
+          "word": ".",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "„",
+          "type": "punct"
+        },
+        {
+          "word": "Es",
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "ist",
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "verlockend",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "zu",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "denken",
+          "type": "Verb"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "dass",
+          "type": "sconj"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "wenn",
+          "type": "sconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Wüstenheuschrecken",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "in",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "großen",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Schwärmen",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "zusammenkommen",
+          "type": "Verb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "und",
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "sie",
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "das",
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "lokale",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "elektrische",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Feld",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "verändern",
+          "type": "Verb"
+        },
+        {
+          "word": ",",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "sie",
+          "type": "pron"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "auch",
+          "type": "Adverb"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "die",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Menge",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "an",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Wüstenstaub",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "in",
+          "type": "Adposition"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "der",
+          "type": "det"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Luft",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "beeinflussen",
+          "type": "Verb"
+        },
+        {
+          "word": ".",
+          "type": "punct"
+        },
+        {
+          "word": "“",
+          "type": "punct"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Weitere",
+          "type": "Adjektiv"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "Forschung",
+          "type": "Nomen"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "sei",
+          "type": "aux"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "aber",
+          "type": "cconj"
+        },
+        {
+          "word": " ",
+          "type": "space"
+        },
+        {
+          "word": "notwendig",
+          "type": "Adverb"
+        },
+        {
+          "word": ".",
+          "type": "punct"
         }
       ]
     }

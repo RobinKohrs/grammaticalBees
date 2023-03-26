@@ -7,7 +7,7 @@
 
   let wordTypesFormatted;
   $: if (wordTypes) {
-    wordTypes = [[wordTypes[0]], wordTypes.slice(2)];
+    wordTypes = [[wordTypes[0]], wordTypes.slice(1)];
     wordTypesFormatted = true;
   }
 
