@@ -3,6 +3,7 @@
   import { setContext } from "svelte";
   import { slide, fade } from "svelte/transition";
   import { tick } from "svelte";
+  // import debounce from "lodash/debounce";
 
   // own compontents
   import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
@@ -13,6 +14,11 @@
   import article from "./../assets/article.json";
 
   let bodyContainer;
+  let showNParagraphs = 1;
+  let showButtons = false;
+  let width;
+  $: mobile = width < 768;
+
   function scrollToBottom() {
     window.scrollTo({
       top: bodyContainer.scrollHeight,
@@ -28,9 +34,6 @@
   });
 
   import { typeStore } from "../stores/currentType.js";
-
-  let showNParagraphs = 1;
-  let showButtons = false;
 
   setContext("article", article);
 
@@ -149,6 +152,9 @@
   }
 </script>
 
+<!-- <svelte:window on:resize={resize} /> -->
+<svelte:window bind:innerWidth={width} />
+
 <div class="container relative" bind:this={bodyContainer}>
   <Infobox showWordButtons={true} />
 
@@ -177,7 +183,13 @@
     </div>
   </section>
 
-  <section class="subheader">
+  <section
+    class="subheader"
+    style:width={mobile ? "100%" : "140%"}
+    style:transform={mobile ? "" : "translateX(-15%)"}
+    style:font-size={mobile ? "1.2rem" : "1.4rem"}
+    style:margin={mobile ? "0" : "3rem 0"}
+  >
     <div class="article-subheader flex flex-wrap">
       {console.log(article.subheader) || ""}
       {#each article.subheader.words as word, i}

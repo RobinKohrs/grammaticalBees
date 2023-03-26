@@ -11,6 +11,4 @@ class={span.class} // e.g. "header"
 {/each}
 ```
 
-- [ ] close the modal
-- [ ] make expand for button selection
-- [ ] make introduction modal
+- [ ] make header / content / footer -> and header and footer are sticky and the text automatically scrolls in the middle (content) to the end
