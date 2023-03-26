@@ -21,18 +21,23 @@
 	body {
 		position: relative;
 		z-index: 0;
+		--infoColor: #e8dddc;
+		--infoOpacity: rgba(255, 255, 255, 0.9);
 	}
 
 	body::before {
-		background-image: radial-gradient(black 20%, transparent 1%);
-		background-size: 10px 10px;
+		/* background-image: radial-gradient(black 20%, transparent 1%); */
+		/* background-size: 10px 10px; */
+		background-image: url("/img/oldPaper.jpeg");
+		background-size: cover;
+		background-position: no-repeat;
 		content: "";
 		position: fixed;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
+		opacity: .3;
 		z-index: -1;
-		opacity: 0.1;
 	}
 </style>

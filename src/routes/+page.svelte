@@ -2,8 +2,12 @@
   import { onMount } from "svelte";
   import { setContext } from "svelte";
   import { slide, fade } from "svelte/transition";
-  import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
   import { tick } from "svelte";
+
+  // own compontents
+  import ShowParagraphButtons from "$lib/showParagraphButtons.svelte";
+  import Modal from "$lib/Modal.svelte";
+  import Infobox from "../lib/Infobox.svelte";
 
   // data
   import article from "./../assets/article.json";
@@ -25,9 +29,8 @@
 
   import { typeStore } from "../stores/currentType.js";
 
-  let flippedTextWidth = 60;
   let showNParagraphs = 1;
-  let showModal;
+  let showButtons = false;
 
   setContext("article", article);
 
@@ -111,12 +114,10 @@
     [...spans].forEach((span) => {
       // if the span was already rendered, do not attach an event listener
       if (!span.hasAttribute("data-rendered")) {
-        span.style.transform = "rotate3d(0, 0, 0, 0deg)";
         span.dataset.rendered = true;
-        span.dataset.flipped = false;
         span.dataset.word = span.innerText;
         span.addEventListener("click", () => {
-          flipWord(span);
+          handleClick(span);
         });
       }
     });
@@ -142,57 +143,27 @@
     return color;
   }
 
-  async function flipWord(ele) {
-    console.log("do nothing");
-    // let flipped = ele.dataset.flipped === "true";
-
-    // // the spans text and type
-    // let wordType = ele.dataset.wordType;
-    // let wordText = `${ele.dataset.word}`;
-
-    // // size of wordType
-    // let typeFakeEle = document.createElement("span");
-    // typeFakeEle.innerHTML = wordType;
-    // fakeContainer.appendChild(typeFakeEle);
-    // let fakeTypeWidth = typeFakeEle.offsetWidth;
-
-    // let textFakeEle = document.createElement("span");
-    // textFakeEle.innerHTML = wordText;
-    // fakeContainer.appendChild(textFakeEle);
-    // let fakeTextWidth = textFakeEle.offsetWidth;
-
-    // let w = fakeTextWidth > fakeTypeWidth ? fakeTextWidth : fakeTypeWidth + 4;
-    // if (!flipped) {
-    //   ele.style.transform = "rotate3d(1, 0, 0, 360deg)";
-    //   ele.style.width = w + "px";
-    //   ele.style.textAlign = "center";
-    //   ele.dataset.flipped = true;
-    //   ele.innerHTML = wordType + "&nbsp;";
-    // } else {
-    //   ele.style.transform = "rotate3d(0, 0, 0, 0deg)";
-    //   ele.style.width = w + "px";
-    //   ele.innerHTML = wordText;
-    //   ele.dataset.flipped = false;
-    // }
+  let clickedWord;
+  async function handleClick(ele) {
+    clickedWord = Object.assign({}, ele.dataset);
   }
 </script>
 
 <div class="container relative" bind:this={bodyContainer}>
-  <!-- <div
-    class="fakeElements absolute w-0 h-0 overflow-hidden"
-    bind:this={fakeContainer}
-  /> -->
+  <Infobox showWordButtons={true} />
 
-  {#if showModal}
-    <div class="modal absolute inset-0 grid items-center">MODAL</div>
+  {#if clickedWord}
+    <Modal bind:clickedWord />
   {/if}
 
-  <section class="word-buttons">
-    <div class="text-center mb-4 font-bold text-lg">Zeig mir:</div>
-    {#if $typeStore}
-      <Buttons {wordTypes} selected={$typeStore} on:click={setWordType} />
-    {/if}
-  </section>
+  <!-- WORD TOGGLE BUTTONS -->
+  <Buttons
+    {wordTypes}
+    selected={$typeStore}
+    on:click={setWordType}
+    {showButtons}
+  />
+  <!-- WORD BUTTONS -->
 
   <section class="newspaper">
     <div class="newspaper-name">
@@ -203,7 +174,7 @@
   <section class="header">
     <div class="article-header">
       {#each article.header.words as word}
-        <span> {word.word}&nbsp;</span>
+        <span> {word.word}</span>
       {/each}
     </div>
   </section>
@@ -226,7 +197,7 @@
   </section>
 
   <section class="body" bind:this={bodyContainer}>
-    <div class="body overflow-auto">
+    <div class="body overflow-auto text-lg">
       {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
         {#if /para/.test(bp)}
           <p transition:slide>
@@ -272,25 +243,6 @@
 </div>
 
 <style lang="scss">
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 0 1rem;
-    position: relative;
-
-    & .word-buttons {
-      position: sticky;
-      top: 0;
-      z-index: 999;
-      background-color: #ffc680;
-      padding-bottom: 1rem;
-      border-radius: 0 0 0.5rem 0.5rem;
-      border-right: 2px solid black;
-      border-left: 2px solid black;
-      border-bottom: 2px solid black;
-    }
-  }
-
   span {
     opacity: 1;
     transition-property: opacity, transform, color;
@@ -302,6 +254,24 @@
   span:hover {
     background-color: hsla(0%, 0%, 0%, 0.1);
     cursor: pointer;
+  }
+  .container {
+    max-width: 600px;
+    padding: 0 0 1rem;
+    margin: 0 auto;
+
+    & .modal-content {
+      & > * {
+        padding: 0.5rem;
+        display: grid;
+        align-items: center;
+      }
+      & .value {
+        font-weight: 600;
+        font-size: 1.4rem;
+        min-width: 100px;
+      }
+    }
   }
 
   .newspaper-name {
@@ -345,7 +315,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     margin: 0.5rem 0;
     text-decoration: underline;

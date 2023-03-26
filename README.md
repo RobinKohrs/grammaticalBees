@@ -10,3 +10,7 @@ class={span.class} // e.g. "header"
 >{span.text}</span>
 {/each}
 ```
+
+- [ ] close the modal
+- [ ] make expand for button selection
+- [ ] make introduction modal
