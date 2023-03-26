@@ -14,8 +14,10 @@
 
   let bodyContainer;
   function scrollToBottom() {
+    let sH = bodyContainer.scrollHeight;
+    console.log("sH: ", sH);
     window.scrollTo({
-      top: bodyContainer.scrollHeight,
+      top: sH,
       behavior: "smooth",
     });
   }
@@ -149,97 +151,103 @@
   }
 </script>
 
-<div class="container relative" bind:this={bodyContainer}>
+<div class="container relative">
   <Infobox showWordButtons={true} />
 
   {#if clickedWord}
     <Modal bind:clickedWord />
   {/if}
 
-  <!-- WORD TOGGLE BUTTONS -->
-  <Buttons
-    {wordTypes}
-    selected={$typeStore}
-    on:click={setWordType}
-    {showButtons}
-  />
-  <!-- WORD BUTTONS -->
-
-  <section class="newspaper">
-    <div class="newspaper-name">
-      <span class="newspaper" data-word-type={"noun"}>Ö1-Wissenschaft</span>
+  <div class="container-grid">
+    <div class="container-grid-buttons">
+      <Buttons
+        {wordTypes}
+        selected={$typeStore}
+        on:click={setWordType}
+        {showButtons}
+      />
     </div>
-  </section>
+    <div
+      class="container-grid-content fixed top-20 mx-auto max-w-2xl"
+      bind:this={bodyContainer}
+    >
+      <section class="newspaper">
+        <div class="newspaper-name">
+          <span class="newspaper" data-word-type={"noun"}>Ö1-Wissenschaft</span>
+        </div>
+      </section>
 
-  <section class="header">
-    <div class="article-header">
-      {#each article.header.words as word}
-        <span> {word.word}</span>
-      {/each}
+      <section class="header">
+        <div class="article-header">
+          {#each article.header.words as word}
+            <span> {word.word}</span>
+          {/each}
+        </div>
+      </section>
+
+      <section class="subheader">
+        <div class="article-subheader flex flex-wrap">
+          {console.log(article.subheader) || ""}
+          {#each article.subheader.words as word, i}
+            <span data-word-type={word.type}>{@html word.word}</span>
+          {/each}
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="article-info">
+          <span class="time">20.03.2023</span>
+          <span class="time">7:20 Uhr</span>
+          <span class="time">Wien</span>
+        </div>
+      </section>
+
+      <section class="body" bind:this={bodyContainer}>
+        <div class="body overflow-auto text-lg">
+          {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
+            {#if /para/.test(bp)}
+              <p transition:slide>
+                {#each article.body[bp].words as word, j}
+                  {@const nextWord =
+                    j < article.body[bp].words.length
+                      ? article.body[bp].words[j + 1]
+                      : { type: "END" }}
+                  {@const currentWord = word.word}
+                  {@const currentType = word.type}
+                  {@const color = findColor(currentType, currentTypes)}
+
+                  {#if nextWord && nextWord.type === "PUNCT"}
+                    <span
+                      data-word-type={currentType}
+                      style:color
+                      class:hide={!currentTypes.includes(currentType) &&
+                        currentTypes[0] !== "all"}>{currentWord}</span
+                    >
+                  {:else}
+                    <span
+                      data-word-type={currentType}
+                      style:color
+                      class:hide={!currentTypes.includes(currentType) &&
+                        currentTypes[0] !== "all"}>{currentWord}</span
+                    >
+                  {/if}
+                {/each}
+              </p>
+            {:else}
+              <h2>
+                {#each article.body[bp].words as word}
+                  <span>
+                    {word.word}&nbsp;
+                  </span>
+                {/each}
+              </h2>
+            {/if}
+          {/each}
+        </div>
+        <ShowParagraphButtons bind:para={showNParagraphs} />
+      </section>
     </div>
-  </section>
-
-  <section class="subheader">
-    <div class="article-subheader flex flex-wrap">
-      {console.log(article.subheader) || ""}
-      {#each article.subheader.words as word, i}
-        <span data-word-type={word.type}>{@html word.word}</span>
-      {/each}
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="article-info">
-      <span class="time">20.03.2023</span>
-      <span class="time">7:20 Uhr</span>
-      <span class="time">Wien</span>
-    </div>
-  </section>
-
-  <section class="body" bind:this={bodyContainer}>
-    <div class="body overflow-auto text-lg">
-      {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
-        {#if /para/.test(bp)}
-          <p transition:slide>
-            {#each article.body[bp].words as word, j}
-              {@const nextWord =
-                j < article.body[bp].words.length
-                  ? article.body[bp].words[j + 1]
-                  : { type: "END" }}
-              {@const currentWord = word.word}
-              {@const currentType = word.type}
-              {@const color = findColor(currentType, currentTypes)}
-
-              {#if nextWord && nextWord.type === "PUNCT"}
-                <span
-                  data-word-type={currentType}
-                  style:color
-                  class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}>{currentWord}</span
-                >
-              {:else}
-                <span
-                  data-word-type={currentType}
-                  style:color
-                  class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}>{currentWord}</span
-                >
-              {/if}
-            {/each}
-          </p>
-        {:else}
-          <h2>
-            {#each article.body[bp].words as word}
-              <span>
-                {word.word}&nbsp;
-              </span>
-            {/each}
-          </h2>
-        {/if}
-      {/each}
-    </div>
-    <ShowParagraphButtons bind:para={showNParagraphs} />
-  </section>
+  </div>
 </div>
 
 <style lang="scss">
@@ -255,23 +263,24 @@
     background-color: hsla(0%, 0%, 0%, 0.1);
     cursor: pointer;
   }
+
+  .modal-content {
+    & > * {
+      padding: 0.5rem;
+      display: grid;
+      align-items: center;
+    }
+    & .value {
+      font-weight: 600;
+      font-size: 1.4rem;
+      min-width: 100px;
+    }
+  }
+
   .container {
     max-width: 600px;
     padding: 0 0 1rem;
     margin: 0 auto;
-
-    & .modal-content {
-      & > * {
-        padding: 0.5rem;
-        display: grid;
-        align-items: center;
-      }
-      & .value {
-        font-weight: 600;
-        font-size: 1.4rem;
-        min-width: 100px;
-      }
-    }
   }
 
   .newspaper-name {
