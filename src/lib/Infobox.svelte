@@ -69,18 +69,20 @@
 
 <style lang="scss">
   .infobox-container {
-    position: fixed;
-    z-index: 2000;
-    bottom: 0;
+    position: absolute;
+    z-index: 200;
     left: 0;
+    top: 0;
     transition: all 0.2s linear;
+    width: 100vw;
+    min-height: 100vh;
     display: grid;
     justify-items: center;
 
-    &.expanded {
-      width: 100vw;
-      height: 100vh;
-    }
+    // &.expanded {
+    //   width: 100vw;
+    //   height: 100vh;
+    // }
 
     .info-content {
       padding: 2rem;

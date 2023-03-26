@@ -20,10 +20,6 @@
   let showBody = false;
   $: mobile = width < 768;
 
-  // setTimeout(() => {
-  //   showBody = true;
-  // }, 100);
-
   function scrollToBottom() {
     window.scrollTo({
       top: bodyContainer.scrollHeight,
@@ -36,6 +32,7 @@
       scrollToBottom();
     });
     observer.observe(bodyContainer);
+    updateSpans();
   }
 
   onMount(() => {
@@ -156,6 +153,7 @@
   }
 
   let clickedWord;
+  $: console.log("clickedWord: ", clickedWord);
   async function handleClick(ele) {
     clickedWord = Object.assign({}, ele.dataset);
   }
@@ -164,8 +162,10 @@
 <!-- <svelte:window on:resize={resize} /> -->
 <!-- <svelte:window bind:innerWidth={width} /> -->
 
-<div class="container relative" bind:this={bodyContainer}>
+{#if !showBody}
   <Infobox showWordButtons={true} bind:showBody />
+{/if}
+<div class="container relative" bind:this={bodyContainer}>
   {#if clickedWord}
     <Modal bind:clickedWord />
   {/if}
@@ -192,13 +192,11 @@
       </div>
     </section>
 
-    <section
-      class="subheader"
-      style:width={mobile ? "100%" : "140%"}
+    <!-- style:width={mobile ? "100%" : "140%"}
       style:transform={mobile ? "" : "translateX(-15%)"}
       style:font-size={mobile ? "1.2rem" : "1.4rem"}
-      style:margin={mobile ? "2rem 0" : "3rem 0"}
-    >
+      style:margin={mobile ? "2rem 0" : "3rem 0"} -->
+    <section class="subheader">
       <div class="article-subheader flex flex-wrap justify-center">
         {#each article.subheader.words as word, i}
           <span data-word-type={word.type}>{@html word.word}</span>
