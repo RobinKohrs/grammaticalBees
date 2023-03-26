@@ -17,7 +17,12 @@
   let showNParagraphs = 1;
   let showButtons = false;
   let width;
+  let showBody = false;
   $: mobile = width < 768;
+
+  setTimeout(() => {
+    showBody = true;
+  }, 100);
 
   function scrollToBottom() {
     window.scrollTo({
@@ -25,12 +30,16 @@
       behavior: "smooth",
     });
   }
-  onMount(() => {
-    updateSpans();
+
+  $: if (bodyContainer) {
     let observer = new ResizeObserver((ele) => {
       scrollToBottom();
     });
     observer.observe(bodyContainer);
+  }
+
+  onMount(() => {
+    updateSpans();
   });
 
   import { typeStore } from "../stores/currentType.js";
@@ -155,102 +164,102 @@
 <!-- <svelte:window on:resize={resize} /> -->
 <svelte:window bind:innerWidth={width} />
 
-<div class="container relative" bind:this={bodyContainer}>
-  <Infobox showWordButtons={true} />
+<Infobox showWordButtons={true} />
+{#if showBody}
+  <div class="container relative" bind:this={bodyContainer}>
+    {#if clickedWord}
+      <Modal bind:clickedWord />
+    {/if}
 
-  {#if clickedWord}
-    <Modal bind:clickedWord />
-  {/if}
+    <Buttons
+      {wordTypes}
+      selected={$typeStore}
+      on:click={setWordType}
+      {showButtons}
+    />
 
-  <Buttons
-    {wordTypes}
-    selected={$typeStore}
-    on:click={setWordType}
-    {showButtons}
-  />
+    <section class="newspaper">
+      <div class="newspaper-name">
+        <span class="newspaper" data-word-type={"noun"}>Ö1-Wissenschaft</span>
+      </div>
+    </section>
 
-  <section class="newspaper">
-    <div class="newspaper-name">
-      <span class="newspaper" data-word-type={"noun"}>Ö1-Wissenschaft</span>
-    </div>
-  </section>
+    <section class="header">
+      <div class="article-header">
+        {#each article.header.words as word}
+          <span> {word.word}</span>
+        {/each}
+      </div>
+    </section>
 
-  <section class="header">
-    <div class="article-header">
-      {#each article.header.words as word}
-        <span> {word.word}</span>
-      {/each}
-    </div>
-  </section>
+    <section
+      class="subheader"
+      style:width={mobile ? "100%" : "140%"}
+      style:transform={mobile ? "" : "translateX(-15%)"}
+      style:font-size={mobile ? "1.2rem" : "1.4rem"}
+      style:margin={mobile ? "0" : "3rem 0"}
+    >
+      <div class="article-subheader flex flex-wrap">
+        {#each article.subheader.words as word, i}
+          <span data-word-type={word.type}>{@html word.word}</span>
+        {/each}
+      </div>
+    </section>
 
-  <section
-    class="subheader"
-    style:width={mobile ? "100%" : "140%"}
-    style:transform={mobile ? "" : "translateX(-15%)"}
-    style:font-size={mobile ? "1.2rem" : "1.4rem"}
-    style:margin={mobile ? "0" : "3rem 0"}
-  >
-    <div class="article-subheader flex flex-wrap">
-      {console.log(article.subheader) || ""}
-      {#each article.subheader.words as word, i}
-        <span data-word-type={word.type}>{@html word.word}</span>
-      {/each}
-    </div>
-  </section>
+    <section class="info">
+      <div class="article-info">
+        <span class="time">20.03.2023</span>
+        <span class="time">7:20 Uhr</span>
+        <span class="time">Wien</span>
+      </div>
+    </section>
 
-  <section class="info">
-    <div class="article-info">
-      <span class="time">20.03.2023</span>
-      <span class="time">7:20 Uhr</span>
-      <span class="time">Wien</span>
-    </div>
-  </section>
+    <section class="body" bind:this={bodyContainer}>
+      <div class="body overflow-y-hidden text-lg">
+        {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
+          {#if /para/.test(bp)}
+            <p transition:slide>
+              {#each article.body[bp].words as word, j}
+                {@const nextWord =
+                  j < article.body[bp].words.length
+                    ? article.body[bp].words[j + 1]
+                    : { type: "END" }}
+                {@const currentWord = word.word}
+                {@const currentType = word.type}
+                {@const color = findColor(currentType, currentTypes)}
 
-  <section class="body" bind:this={bodyContainer}>
-    <div class="body overflow-auto text-lg">
-      {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
-        {#if /para/.test(bp)}
-          <p transition:slide>
-            {#each article.body[bp].words as word, j}
-              {@const nextWord =
-                j < article.body[bp].words.length
-                  ? article.body[bp].words[j + 1]
-                  : { type: "END" }}
-              {@const currentWord = word.word}
-              {@const currentType = word.type}
-              {@const color = findColor(currentType, currentTypes)}
-
-              {#if nextWord && nextWord.type === "PUNCT"}
-                <span
-                  data-word-type={currentType}
-                  style:color
-                  class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}>{currentWord}</span
-                >
-              {:else}
-                <span
-                  data-word-type={currentType}
-                  style:color
-                  class:hide={!currentTypes.includes(currentType) &&
-                    currentTypes[0] !== "all"}>{currentWord}</span
-                >
-              {/if}
-            {/each}
-          </p>
-        {:else}
-          <h2>
-            {#each article.body[bp].words as word}
-              <span>
-                {word.word}&nbsp;
-              </span>
-            {/each}
-          </h2>
-        {/if}
-      {/each}
-    </div>
-    <ShowParagraphButtons bind:para={showNParagraphs} />
-  </section>
-</div>
+                {#if nextWord && nextWord.type === "PUNCT"}
+                  <span
+                    data-word-type={currentType}
+                    style:color
+                    class:hide={!currentTypes.includes(currentType) &&
+                      currentTypes[0] !== "all"}>{currentWord}</span
+                  >
+                {:else}
+                  <span
+                    data-word-type={currentType}
+                    style:color
+                    class:hide={!currentTypes.includes(currentType) &&
+                      currentTypes[0] !== "all"}>{currentWord}</span
+                  >
+                {/if}
+              {/each}
+            </p>
+          {:else}
+            <h2>
+              {#each article.body[bp].words as word}
+                <span>
+                  {word.word}&nbsp;
+                </span>
+              {/each}
+            </h2>
+          {/if}
+        {/each}
+      </div>
+      <ShowParagraphButtons bind:para={showNParagraphs} />
+    </section>
+  </div>
+{/if}
 
 <style lang="scss">
   span {
