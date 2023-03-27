@@ -93,6 +93,7 @@
   }
   .info-content {
     position: fixed;
+    overflow: scroll;
     inset: 0;
     z-index: 10;
     padding: 2rem;
