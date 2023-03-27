@@ -39,7 +39,7 @@
   let wordTypes = [
     {
       type: "all",
-      display: "Alles",
+      display: "Alle",
       color: "black",
     },
     {
@@ -143,7 +143,6 @@
   }
 
   let clickedWord;
-  $: console.log("clickedWord: ", clickedWord);
   async function handleClick(ele) {
     if (ele.dataset.wordType === "space") {
       return;
