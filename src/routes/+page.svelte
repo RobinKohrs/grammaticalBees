@@ -293,7 +293,7 @@
     max-width: 600px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 20px 1fr auto;
+    grid-template-rows: auto 1fr auto;
     height: 100%;
   }
 

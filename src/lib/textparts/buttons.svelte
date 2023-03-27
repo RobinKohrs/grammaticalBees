@@ -23,7 +23,7 @@
 </script>
 
 {#if wordTypesFormatted}
-  <div class="container">
+  <div class="word-types-container">
     <div class="buttons-container">
       <div
         class="buttons-container-text text-center mb-1 font-bold text-lg flex items-center justify-center gap-4"
@@ -63,12 +63,11 @@
 {/if}
 
 <style lang="scss">
-  .container {
+  .word-types-container {
     position: sticky;
     max-width: 600px;
     top: 0;
     z-index: 9;
-    padding-bottom: 1rem;
 
     & button {
       padding: 0.5rem;

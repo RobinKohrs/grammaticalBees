@@ -28,7 +28,7 @@
   class:expanded
 >
   {#if !expanded}
-    <div class="flex justify-center gap-2 px-4">
+    <div class="flex justify-center gap-2 px-4 py-2 border-t-2 border-black">
       <button class="button-showMore" on:click={handlePlus}>+</button>
       <button class="button-showLess mr-auto" on:click={handleMinus}>-</button>
       <button
@@ -37,7 +37,7 @@
           expanded = !expanded;
         }}>?</button
       >
-      <button class="button-shoAll ml-auto" on:click={handleShowAll}
+      <button class="button-showAll ml-auto" on:click={handleShowAll}
         >Alles</button
       >
     </div>
