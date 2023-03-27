@@ -29,7 +29,7 @@
         class="buttons-container-text text-center mb-1 font-bold text-lg flex items-center justify-center gap-4"
         on:click={handleExpandClick}
       >
-        Angezeigte Wordtypen: <div
+        Zeige Wordtypen: <div
           class="arrrow"
           class:showButtons
           style="color: transparent; text-shadow: 0 0 0 black; font-size: 1.5rem; transform: rotate({showButtons
@@ -66,7 +66,6 @@
   .container {
     position: sticky;
     max-width: 600px;
-    height: 100px;
     top: 0;
     z-index: 9;
     padding-bottom: 1rem;
