@@ -92,7 +92,6 @@
     }
   }
   .info-content {
-    max-width: 600px;
     position: fixed;
     inset: 0;
     z-index: 10;
