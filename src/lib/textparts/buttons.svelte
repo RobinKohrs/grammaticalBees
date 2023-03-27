@@ -26,10 +26,13 @@
   <div class="word-types-container">
     <div class="buttons-container">
       <div
-        class="buttons-container-text text-center mb-1 font-bold text-lg flex items-center justify-center gap-4"
+        class="buttons-container-text text-center mb-1 font-bold flex items-center justify-center gap-4"
+        style="fonz-size: 1.5rem;"
         on:click={handleExpandClick}
       >
-        Zeige Wordtypen: <div
+        <div style="font-size: 1.5rem; letter-spacing: .2rem;">Wortarten:</div>
+
+        <div
           class="arrrow"
           class:showButtons
           style="color: transparent; text-shadow: 0 0 0 black; font-size: 1.5rem; transform: rotate({showButtons

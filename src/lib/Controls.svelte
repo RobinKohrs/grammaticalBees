@@ -1,9 +1,6 @@
 <script>
-  import CloseButton from "$lib/closeButton.svelte";
-
   export let para;
   export let nParagraphsBody;
-  console.log("n paragraphs body: ", nParagraphsBody);
 
   let expanded = true;
 
@@ -28,18 +25,26 @@
   class:expanded
 >
   {#if !expanded}
-    <div class="flex justify-center gap-2 px-4 py-2 border-t-2 border-black">
-      <button class="button-showMore" on:click={handlePlus}>+</button>
-      <button class="button-showLess mr-auto" on:click={handleMinus}>-</button>
-      <button
-        class="open"
-        on:click={() => {
-          expanded = !expanded;
-        }}>?</button
-      >
-      <button class="button-showAll ml-auto" on:click={handleShowAll}
+    <div
+      class="flex justify-center gap-2 px-4 py-2 border-t-2 border-black items-end"
+    >
+      <div class="para-buttons mr-auto">
+        <div>Paragraphen</div>
+        <button class="button-showMore" on:click={handlePlus}>+</button>
+        <button class="button-showLess" on:click={handleMinus}>-</button>
+      </div>
+      <div>
+        <div>Info</div>
+        <button
+          class="open"
+          on:click={() => {
+            expanded = !expanded;
+          }}>?</button
+        >
+      </div>
+      <!-- <button class="button-showAll ml-auto" on:click={handleShowAll}
         >Alles</button
-      >
+      > -->
     </div>
   {:else}
     <div class="info-content flex flex-col">

@@ -11,4 +11,4 @@ class={span.class} // e.g. "header"
 {/each}
 ```
 
-- [ ] make header / content / footer -> and header and footer are sticky and the text automatically scrolls in the middle (content) to the end
+- [ ] when words are not visible -> do not click

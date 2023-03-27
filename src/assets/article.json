@@ -9,7 +9,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "erzeugen",
@@ -17,7 +17,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "elektrische",
@@ -25,7 +25,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Ladung",
@@ -39,11 +39,11 @@
     "words": [
       {
         "word": "Eine",
-        "type": "det"
+        "type": "Artikel"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Studie",
@@ -51,23 +51,23 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "aus",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "England",
-        "type": "propn"
+        "type": "Nomen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "zeigt",
@@ -75,11 +75,11 @@
       },
       {
         "word": ":",
-        "type": "punct"
+        "type": "Zeichen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Bienen-",
@@ -87,23 +87,23 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "und",
-        "type": "cconj"
+        "type": "Konjunktion"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "andere",
-        "type": "pron"
+        "type": "Pronomen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Insektenschwärme",
@@ -111,7 +111,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "erzeugen",
@@ -119,7 +119,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "elektrische",
@@ -127,7 +127,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Ladung",
@@ -135,15 +135,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "–",
-        "type": "punct"
+        "type": "Zeichen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "ähnlich",
@@ -151,15 +151,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "wie",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Gewitterwolken",
@@ -167,27 +167,27 @@
       },
       {
         "word": ".",
-        "type": "punct"
+        "type": "Zeichen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Das",
-        "type": "pron"
+        "type": "Pronomen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "könnte",
-        "type": "aux"
+        "type": "Hilfsverb"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "nicht",
@@ -195,7 +195,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "nur",
@@ -203,15 +203,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "den",
-        "type": "det"
+        "type": "Artikel"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Bienen",
@@ -219,7 +219,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "helfen",
@@ -227,11 +227,11 @@
       },
       {
         "word": ",",
-        "type": "punct"
+        "type": "Zeichen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Nektar",
@@ -239,15 +239,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "zu",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "finden",
@@ -255,19 +255,19 @@
       },
       {
         "word": ",",
-        "type": "punct"
+        "type": "Zeichen"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "sondern",
-        "type": "cconj"
+        "type": "Konjunktion"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "auch",
@@ -275,15 +275,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "zum",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Transport",
@@ -291,15 +291,15 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "von",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Wüstenstaub",
@@ -307,23 +307,23 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "über",
-        "type": "Adposition"
+        "type": "Präposition"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "viele",
-        "type": "det"
+        "type": "Artikel"
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "Kilometer",
@@ -331,7 +331,7 @@
       },
       {
         "word": " ",
-        "type": "space"
+        "type": "Leer"
       },
       {
         "word": "beitragen",
@@ -339,7 +339,7 @@
       },
       {
         "word": ".",
-        "type": "punct"
+        "type": "Zeichen"
       }
     ]
   },
@@ -350,55 +350,55 @@
       "words": [
         {
           "word": "Neben",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "einem",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Magnetfeld",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "an",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dem",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sich",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beispielsweise",
@@ -406,7 +406,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Vögel",
@@ -414,7 +414,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "orientieren",
@@ -422,27 +422,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "um",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ihre",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Winterquartiere",
@@ -450,15 +450,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "finden",
@@ -466,27 +466,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "hat",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Erde",
@@ -494,7 +494,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auch",
@@ -502,15 +502,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ein",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrostatisches",
@@ -518,7 +518,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Feld",
@@ -526,11 +526,11 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Global",
@@ -538,7 +538,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "gesehen",
@@ -546,23 +546,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Erdoberfläche",
@@ -570,7 +570,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "negativ",
@@ -578,7 +578,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "geladen",
@@ -586,23 +586,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ionosphäre",
@@ -610,27 +610,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ungefähr",
@@ -638,7 +638,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "60",
@@ -646,7 +646,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Kilometer",
@@ -654,7 +654,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Höhe",
@@ -662,7 +662,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beginnt",
@@ -670,11 +670,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "positiv",
@@ -682,7 +682,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "geladen",
@@ -690,11 +690,11 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wetterereignisse",
@@ -702,15 +702,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wie",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wolkenbildung",
@@ -718,15 +718,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "oder",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blitzeinschläge",
@@ -734,31 +734,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sowie",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "viele",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "andere",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Faktoren",
@@ -766,23 +766,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "können",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -790,7 +790,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Feld",
@@ -798,15 +798,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aber",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beeinflussen",
@@ -814,7 +814,7 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -828,7 +828,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "finden",
@@ -836,7 +836,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wissenschaftler",
@@ -844,15 +844,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wissenschaftlerinnen",
@@ -860,27 +860,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "atmosphärische",
@@ -888,7 +888,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Elektrizität",
@@ -896,7 +896,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "messen",
@@ -904,11 +904,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dabei",
@@ -916,51 +916,51 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Anomalien",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ein",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Forschungsteam",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aus",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "England",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "fand",
@@ -968,7 +968,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nun",
@@ -976,15 +976,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mögliche",
@@ -992,7 +992,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Erklärung",
@@ -1000,43 +1000,43 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "was",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "für",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "diese",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Anomalien",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verantwortlich",
@@ -1044,35 +1044,35 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sein",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "könnte",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ihre",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ergebnisse",
@@ -1080,7 +1080,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "veröffentlichten",
@@ -1088,23 +1088,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "im",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Fachmagazin",
@@ -1112,11 +1112,11 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "„",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "iScience",
@@ -1124,35 +1124,35 @@
         },
         {
           "word": "“",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "„",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "Mit",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "unserer",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Studie",
@@ -1160,23 +1160,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "haben",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wir",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "gezeigt",
@@ -1184,11 +1184,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -1196,15 +1196,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "es",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auch",
@@ -1212,7 +1212,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wichtig",
@@ -1220,27 +1220,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "den",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Einfluss",
@@ -1248,7 +1248,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "biologischer",
@@ -1256,7 +1256,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Faktoren",
@@ -1264,15 +1264,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "berücksichtigen",
@@ -1280,15 +1280,15 @@
         },
         {
           "word": "“",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "so",
@@ -1296,19 +1296,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Liam",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "O",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": "’",
@@ -1320,83 +1320,83 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "University",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "of",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bristol",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Er",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "anderen",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Studienautoren",
@@ -1404,15 +1404,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "-autorinnen",
@@ -1420,7 +1420,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "untersuchten",
@@ -1428,15 +1428,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -1444,7 +1444,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -1452,15 +1452,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen-",
@@ -1468,23 +1468,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "anderen",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insektenschwärmen",
@@ -1492,7 +1492,7 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -1506,15 +1506,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "durch",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Luftreibung",
@@ -1522,7 +1522,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "positiv",
@@ -1530,7 +1530,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "geladen",
@@ -1544,35 +1544,35 @@
       "words": [
         {
           "word": "Wird",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "es",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "einem",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienenstock",
@@ -1580,15 +1580,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "voll",
@@ -1596,11 +1596,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "kommt",
@@ -1608,27 +1608,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "es",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "vor",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -1636,15 +1636,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienenkönigin",
@@ -1652,7 +1652,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zusammen",
@@ -1660,15 +1660,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mit",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ungefähr",
@@ -1676,7 +1676,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "12.000",
@@ -1684,7 +1684,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Arbeiterbienen",
@@ -1692,15 +1692,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "den",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Stock",
@@ -1708,7 +1708,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verlässt",
@@ -1716,27 +1716,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "um",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ein",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "neues",
@@ -1744,23 +1744,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienenvolk",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "gründen",
@@ -1768,19 +1768,19 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Diesen",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schwarmflug",
@@ -1788,7 +1788,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "untersuchte",
@@ -1796,15 +1796,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Forschungsteam",
@@ -1812,19 +1812,19 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ergebnisse",
@@ -1832,15 +1832,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Studie",
@@ -1848,7 +1848,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zeigen",
@@ -1856,11 +1856,11 @@
         },
         {
           "word": ":",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen",
@@ -1868,23 +1868,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "andere",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insekten",
@@ -1892,15 +1892,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wie",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Heuschrecken",
@@ -1908,23 +1908,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "können",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "großen",
@@ -1932,7 +1932,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schwärmen",
@@ -1940,7 +1940,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -1948,7 +1948,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -1956,7 +1956,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "erzeugen",
@@ -1964,11 +1964,11 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Dadurch",
@@ -1976,23 +1976,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "können",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insekten",
@@ -2000,15 +2000,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ähnliche",
@@ -2016,7 +2016,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Auswirkung",
@@ -2024,23 +2024,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auf",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "atmosphärische",
@@ -2048,7 +2048,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Elektrizität",
@@ -2056,23 +2056,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "haben",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wie",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wetterereignisse",
@@ -2080,7 +2080,7 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -2090,11 +2090,11 @@
       "words": [
         {
           "word": "Das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "heißt",
@@ -2102,7 +2102,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nicht",
@@ -2110,11 +2110,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -2122,15 +2122,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Tiere",
@@ -2138,15 +2138,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wetter",
@@ -2154,7 +2154,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beeinflussen",
@@ -2162,27 +2162,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "können",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sondern",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nur",
@@ -2190,11 +2190,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -2202,23 +2202,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -2226,7 +2226,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladungsverteilung",
@@ -2234,7 +2234,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aufweisen",
@@ -2242,19 +2242,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "können",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ähnlich",
@@ -2262,15 +2262,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladungsverteilung",
@@ -2278,15 +2278,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "einer",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schönwetter-",
@@ -2294,15 +2294,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "oder",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Gewitterwolke",
@@ -2310,27 +2310,27 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Letzteres",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "abhängig",
@@ -2338,23 +2338,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insektenart",
@@ -2362,23 +2362,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schwarmdichte",
@@ -2386,19 +2386,19 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Forscherinnen",
@@ -2406,15 +2406,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Forscher",
@@ -2422,7 +2422,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "gehen",
@@ -2430,7 +2430,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "davon",
@@ -2438,19 +2438,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aus",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -2458,15 +2458,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -2474,7 +2474,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -2482,15 +2482,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen",
@@ -2498,23 +2498,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "durch",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ihre",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Reibung",
@@ -2522,23 +2522,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mit",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Luft",
@@ -2546,7 +2546,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "entsteht",
@@ -2554,27 +2554,27 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "andere",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Erklärung",
@@ -2582,19 +2582,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Verb"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -2602,15 +2602,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen",
@@ -2618,15 +2618,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mit",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "kleinen",
@@ -2634,7 +2634,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Partikeln",
@@ -2642,23 +2642,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Luft",
@@ -2666,7 +2666,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "kollidieren",
@@ -2674,15 +2674,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "so",
@@ -2690,7 +2690,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aufgeladen",
@@ -2698,15 +2698,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "werden",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -2720,7 +2720,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "hilft",
@@ -2728,15 +2728,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "bei",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Nektarsuche",
@@ -2750,11 +2750,11 @@
       "words": [
         {
           "word": "Die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "positive",
@@ -2762,7 +2762,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -2770,15 +2770,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen",
@@ -2786,23 +2786,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "könnte",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ihnen",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "helfen",
@@ -2810,11 +2810,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blumen",
@@ -2822,15 +2822,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "finden",
@@ -2838,35 +2838,35 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wie",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Erdoberfläche",
@@ -2874,7 +2874,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "negativ",
@@ -2882,7 +2882,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "geladen",
@@ -2890,35 +2890,35 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sind",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
-          "word": "Landet",
+          "word": "LanArtikel",
           "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Biene",
@@ -2926,31 +2926,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auf",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blume",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "tauschen",
@@ -2958,15 +2958,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladungen",
@@ -2974,31 +2974,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aus",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -3006,7 +3006,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -3014,23 +3014,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blume",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verändert",
@@ -3038,15 +3038,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sich",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "kurzzeitig",
@@ -3054,11 +3054,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "so",
@@ -3066,11 +3066,11 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "O",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": "’",
@@ -3082,39 +3082,39 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "„",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "Es",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nette",
@@ -3122,7 +3122,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Idee",
@@ -3130,11 +3130,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -3142,15 +3142,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -3158,7 +3158,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Feld",
@@ -3166,23 +3166,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blume",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dann",
@@ -3190,7 +3190,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "anders",
@@ -3198,31 +3198,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Biene",
@@ -3230,19 +3230,19 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "vorbeifliegt",
@@ -3250,27 +3250,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ohne",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Landen",
@@ -3278,7 +3278,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nur",
@@ -3286,23 +3286,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "durch",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -3310,7 +3310,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -3318,7 +3318,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "erkennen",
@@ -3326,19 +3326,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "kann",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ob",
@@ -3346,23 +3346,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "diese",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Blume",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "bereits",
@@ -3370,31 +3370,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "einer",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "anderen",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Biene",
@@ -3402,7 +3402,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "besucht",
@@ -3410,19 +3410,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wurde",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "“",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -3436,15 +3436,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Pollen",
@@ -3452,27 +3452,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sind",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "laut",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "O",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": "’",
@@ -3484,11 +3484,11 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "negativ",
@@ -3496,7 +3496,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "geladen",
@@ -3504,15 +3504,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "haften",
@@ -3520,7 +3520,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "so",
@@ -3528,7 +3528,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "gut",
@@ -3536,23 +3536,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "an",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "den",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Haaren",
@@ -3560,15 +3560,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Biene",
@@ -3576,19 +3576,19 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Aber",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nicht",
@@ -3596,7 +3596,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "nur",
@@ -3604,7 +3604,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Bienen",
@@ -3612,23 +3612,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "andere",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insekten",
@@ -3636,23 +3636,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "haben",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "eine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -3660,7 +3660,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -3668,11 +3668,11 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Auch",
@@ -3680,7 +3680,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Vögel",
@@ -3688,15 +3688,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Mikroorganismen",
@@ -3704,7 +3704,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "tragen",
@@ -3712,15 +3712,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zur",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrischen",
@@ -3728,7 +3728,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -3736,15 +3736,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Atmosphäre",
@@ -3752,27 +3752,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "bei",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Diese",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verbessert",
@@ -3780,7 +3780,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wiederum",
@@ -3788,15 +3788,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "den",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Transport",
@@ -3804,15 +3804,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Partikeln",
@@ -3820,23 +3820,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Luft",
@@ -3844,7 +3844,7 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     },
@@ -3854,19 +3854,19 @@
       "words": [
         {
           "word": "In",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Studie",
@@ -3874,7 +3874,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "berechneten",
@@ -3882,11 +3882,11 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "O",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": "’",
@@ -3898,27 +3898,27 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "seine",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Kolleginnen",
@@ -3926,15 +3926,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Kollegen",
@@ -3942,7 +3942,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auch",
@@ -3950,15 +3950,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -3966,7 +3966,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -3974,15 +3974,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wüstenheuschrecken",
@@ -3990,27 +3990,27 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "durch",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schwärme",
@@ -4018,19 +4018,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mit",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "„",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "biblischem",
@@ -4038,7 +4038,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ausmaß",
@@ -4046,15 +4046,15 @@
         },
         {
           "word": "“",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "so",
@@ -4062,11 +4062,11 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "O",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": "’",
@@ -4078,11 +4078,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beispielsweise",
@@ -4090,23 +4090,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Afrika",
-          "type": "propn"
+          "type": "Nomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "immer",
@@ -4114,7 +4114,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wieder",
@@ -4122,7 +4122,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "große",
@@ -4130,7 +4130,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schäden",
@@ -4138,23 +4138,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Landwirtschaft",
@@ -4162,7 +4162,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verursachen",
@@ -4170,27 +4170,27 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "In",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Studie",
@@ -4198,7 +4198,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "spekulieren",
@@ -4206,19 +4206,19 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ob",
@@ -4226,15 +4226,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -4242,7 +4242,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Ladung",
@@ -4250,15 +4250,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Insekten",
@@ -4266,7 +4266,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auch",
@@ -4274,15 +4274,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zum",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Transport",
@@ -4290,15 +4290,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "von",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wüstenstaub",
@@ -4306,23 +4306,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "über",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "mehrere",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Kilometer",
@@ -4330,7 +4330,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beiträgt",
@@ -4338,31 +4338,31 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "„",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "Es",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "ist",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verlockend",
@@ -4370,15 +4370,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zu",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "denken",
@@ -4386,11 +4386,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "dass",
@@ -4398,11 +4398,11 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "wenn",
@@ -4410,7 +4410,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wüstenheuschrecken",
@@ -4418,15 +4418,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "großen",
@@ -4434,7 +4434,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Schwärmen",
@@ -4442,7 +4442,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "zusammenkommen",
@@ -4450,31 +4450,31 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "und",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "das",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "lokale",
@@ -4482,7 +4482,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "elektrische",
@@ -4490,7 +4490,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Feld",
@@ -4498,7 +4498,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "verändern",
@@ -4506,19 +4506,19 @@
         },
         {
           "word": ",",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sie",
-          "type": "pron"
+          "type": "Pronomen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "auch",
@@ -4526,15 +4526,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "die",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Menge",
@@ -4542,15 +4542,15 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "an",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Wüstenstaub",
@@ -4558,23 +4558,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "in",
-          "type": "Adposition"
+          "type": "Präposition"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "der",
-          "type": "det"
+          "type": "Artikel"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Luft",
@@ -4582,7 +4582,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "beeinflussen",
@@ -4590,15 +4590,15 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": "“",
-          "type": "punct"
+          "type": "Zeichen"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Weitere",
@@ -4606,7 +4606,7 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "Forschung",
@@ -4614,23 +4614,23 @@
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "sei",
-          "type": "aux"
+          "type": "Hilfsverb"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "aber",
-          "type": "cconj"
+          "type": "Konjunktion"
         },
         {
           "word": " ",
-          "type": "space"
+          "type": "Leer"
         },
         {
           "word": "notwendig",
@@ -4638,7 +4638,7 @@
         },
         {
           "word": ".",
-          "type": "punct"
+          "type": "Zeichen"
         }
       ]
     }
