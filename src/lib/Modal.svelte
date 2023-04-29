@@ -68,6 +68,10 @@
 </div> -->
 
 <style lang="scss">
+  .word-modal {
+    width: var(--fullWidth);
+  }
+
   .modal-container {
     background-color: var(--infoOpacity);
     & .modal-content-container {

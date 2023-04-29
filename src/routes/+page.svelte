@@ -163,7 +163,7 @@
 <!-- <svelte:window on:resize={resize} /> -->
 <!-- <svelte:window bind:innerWidth={width} /> -->
 
-<div class="container w-full relative" style:max-width={`${maxWidth}px`}>
+<div class="container relative" style:max-width={`${maxWidth}px`}>
   <div class="nav">
     <Wordbuttons
       {wordTypes}
@@ -295,6 +295,8 @@
   }
 
   .container {
+    width: min(100%, 600px);
+    width: var(--fullWidth);
     margin: 0 auto;
     display: grid;
     grid-template-rows: auto 1fr auto;
