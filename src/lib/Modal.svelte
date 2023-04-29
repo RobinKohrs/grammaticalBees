@@ -1,13 +1,41 @@
 <script>
+  import { fade } from "svelte/transition";
   import CloseButton from "$lib/closeButton.svelte";
 
   export let clickedWord;
+  $: console.log("clicked word: ", clickedWord);
   function handleClick() {
     clickedWord = undefined;
   }
+
+  // show div only for 2 seconds
+  let showWord;
+  let timeoutId;
+  $: console.log("timeoutId: ", timeoutId);
+  $: if (clickedWord) {
+    showWord = true;
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    timeoutId = setTimeout(() => {
+      showWord = false;
+    }, 2000);
+  }
 </script>
 
-<div
+{#if showWord}
+  <div
+    transition:fade
+    class="word-modal fixed top-0 h-16 rounded-b-md z-20 w-full grid place-items-center text-xl font-bold"
+    style:background-color={"var(--bgTopBottom)"}
+  >
+    <span>
+      {clickedWord.wordType}
+    </span>
+  </div>
+{/if}
+
+<!-- <div
   class="modal-container fixed inset-0 grid place-items-center z-10"
   on:click={handleClick}
 >
@@ -15,15 +43,6 @@
     class="modal-content-container relative border-2 border-slate-500 bg-slate-100 rounded-lg"
   >
     <CloseButton top={0} right={0} {handleClick} />
-    <!-- <div class="modal-close absolute top-0 right-0">
-      <button
-        class="bg-zinc-700 text-slate-100 rounded-full"
-        style="height: 30px; aspect-ratio: 1; border-radius: 50%; transform: translateX(50%) translateY(-50%);"
-        on:click={() => (clickedWord = undefined)}
-      >
-        X
-      </button>
-    </div> -->
     <div class="modal-content flex flex-col items-stretch">
       <div class="word rounded-t-lg">
         <div class="key">Wort:</div>
@@ -46,7 +65,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <style lang="scss">
   .modal-container {

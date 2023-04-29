@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import { slide } from "svelte/transition";
   import { tick } from "svelte";
+  import { browser } from "$app/environment";
 
   // own compontents
   import Modal from "$lib/Modal.svelte";
@@ -12,13 +13,14 @@
   import article from "./../assets/article.json";
   const nParagraphsBody = Object.keys(article.body).length - 1;
 
-  let showNParagraphs = 1;
+  let showNParagraphs = 3;
   let showButtons = false;
   let width;
   let maxWidth = 600;
 
   let mainDiv;
   async function scrollToBottom() {
+    return;
     mainDiv.scrollTo({
       top: scrollHeight,
       behavior: "smooth",
@@ -31,7 +33,7 @@
     scrollToBottom();
   }
 
-  onMount(() => {
+  onMount(async () => {
     updateSpans();
   });
 
@@ -107,7 +109,10 @@
   // get all the spans (each word) on the current page
   let spans;
   async function updateSpans() {
-    console.log("updating spans");
+    if (!browser) {
+      return;
+    }
+
     // wait for the next tick to make sure the spans are rendered
     await tick;
     // get all the spans
@@ -219,7 +224,7 @@
     </section>
 
     <section class="body px-2">
-      <div class="body overflow-y-hidden text-lg">
+      <div class="body overflow-y-hidden text-lg mb-24">
         {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
           {#if /para/.test(bp)}
             <p transition:slide>
@@ -297,7 +302,7 @@
   }
 
   .main {
-    overflow-y: auto;
+    overflow-y: scroll;
     & .newspaper-name {
       margin: 1rem;
       display: flex;

@@ -24,17 +24,19 @@
   class:expanded
   style="background: linear-gradient(0deg, 
   hsla(256, 0%, 95%, 1) 0%, 
-  hsla(256, 0%, 95%, 1) 55%, 
-  hsla(256, 0%, 95%, .1) 70%); "
+  hsla(256, 0%, 95%, .9) 55%, 
+  hsla(256, 0%, 95%, .7) 70%,
+  hsla(256, 0%, 95%, .1) 100%
+  ); "
 >
   {#if !expanded}
     <div class="controls flex justify-center gap-2 px-4 pt-6 pb-2 items-end">
-      <div class="para-buttons mr-auto">
-        <div>Paragraphen</div>
+      <div class="para-buttons mr-auto text-center">
+        <div>Text</div>
         <button class="button-showMore" on:click={handlePlus}>+</button>
         <button class="button-showLess" on:click={handleMinus}>-</button>
       </div>
-      <div>
+      <div class="text-center">
         <div>Info</div>
         <button
           class="open"
@@ -99,7 +101,8 @@
       background-color: lightgray;
       padding: 0.2rem 1rem;
       border-radius: 1rem;
-      border: 2px solid black;
+      border: 1px solid black;
+      box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
     }
   }
   .info-content-container {

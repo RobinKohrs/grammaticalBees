@@ -30,7 +30,9 @@
         style="fonz-size: 1.5rem;"
         on:click={handleExpandClick}
       >
-        <div style="font-size: 1.5rem; letter-spacing: .2rem;">Wortarten:</div>
+        <div style="font-size: 1.5rem; letter-spacing: .2rem;">
+          Zeige Wortarten:
+        </div>
 
         <div
           class="arrrow"
