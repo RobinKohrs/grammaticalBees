@@ -90,7 +90,7 @@
       border-right: 2px solid black;
       border-left: 2px solid black;
       border-bottom: 2px solid black;
-      background-color: white;
+      background-color: var(--bgTopBottom);
       overflow: hidden;
 
       .buttons-container-text {

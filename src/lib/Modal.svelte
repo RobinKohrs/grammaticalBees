@@ -30,7 +30,7 @@
         <div class="value">{clickedWord.word}</div>
       </div>
       <div class="type">
-        <div class="key ">Worttyp:</div>
+        <div class="key">Worttyp:</div>
         <div class="value">{clickedWord.wordType}</div>
       </div>
       <div class="value rounded-b-lg">

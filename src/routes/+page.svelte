@@ -15,6 +15,7 @@
   let showNParagraphs = 1;
   let showButtons = false;
   let width;
+  let maxWidth = 600;
 
   let mainDiv;
   async function scrollToBottom() {
@@ -106,10 +107,12 @@
   // get all the spans (each word) on the current page
   let spans;
   async function updateSpans() {
+    console.log("updating spans");
     // wait for the next tick to make sure the spans are rendered
     await tick;
     // get all the spans
     spans = document.querySelectorAll("span");
+
     [...spans].forEach((span) => {
       // if the span was already rendered, do not attach an event listener
       if (!span.hasAttribute("data-rendered")) {
@@ -155,7 +158,7 @@
 <!-- <svelte:window on:resize={resize} /> -->
 <!-- <svelte:window bind:innerWidth={width} /> -->
 
-<div class="container px-2">
+<div class="container w-full relative" style:max-width={`${maxWidth}px`}>
   <div class="nav">
     <Wordbuttons
       {wordTypes}
@@ -215,7 +218,7 @@
       </div>
     </section>
 
-    <section class="body">
+    <section class="body px-2">
       <div class="body overflow-y-hidden text-lg">
         {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
           {#if /para/.test(bp)}
@@ -248,13 +251,11 @@
     </section>
   </div>
 
-  <div class="footer text-center">
-    <Controls
-      showWordButtons={true}
-      bind:para={showNParagraphs}
-      {nParagraphsBody}
-    />
-  </div>
+  <Controls
+    showWordButtons={true}
+    bind:para={showNParagraphs}
+    {nParagraphsBody}
+  />
 </div>
 
 <style lang="scss">
@@ -289,7 +290,6 @@
   }
 
   .container {
-    max-width: 600px;
     margin: 0 auto;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -320,7 +320,7 @@
       display: flex;
       align-items: center;
       height: 30px;
-      margin: 4rem 2rem 0 0;
+      margin: 3rem 0 1rem;
       justify-content: space-around;
       font-family: "Droid Serif";
       border-top: 1px solid black;
@@ -357,9 +357,5 @@
         font-size: 1.5rem;
       }
     }
-  }
-
-  .footer {
-    padding: 0.5rem 0;
   }
 </style>
