@@ -21,6 +21,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"lucide-svelte": "^0.378.0",
+		"svelte-hamburgers": "^4.2.0",
 		"svelte-legos": "^0.1.1"
 	}
 }

@@ -4,6 +4,10 @@
   import { tick } from "svelte";
   import { browser } from "$app/environment";
 
+  // external stuff
+  import { Hamburger } from "svelte-hamburgers";
+  let menuOpen;
+
   // own compontents
   import Modal from "$lib/Modal.svelte";
   import Controls from "../lib/Controls.svelte";
@@ -11,7 +15,6 @@
 
   // data
   import article from "./../assets/article.json";
-  const nParagraphsBody = Object.keys(article.body).length - 1;
 
   let showNParagraphs = 3;
   let showButtons = false;
@@ -19,19 +22,6 @@
   let maxWidth = 600;
 
   let mainDiv;
-  async function scrollToBottom() {
-    return;
-    mainDiv.scrollTo({
-      top: scrollHeight,
-      behavior: "smooth",
-    });
-  }
-
-  let scrollHeight;
-  $: if (mainDiv && showNParagraphs > 1) {
-    scrollHeight = mainDiv.scrollHeight;
-    scrollToBottom();
-  }
 
   onMount(async () => {
     updateSpans();
@@ -52,17 +42,17 @@
     },
     {
       type: "Verb",
-      display: "Verb",
+      display: "Verben",
       color: "#DB504A",
     },
     {
       type: "Adjektiv",
-      display: "Adjektiv",
+      display: "Adjektive",
       color: "#00916E",
     },
     {
       type: "Adverb",
-      display: "Adverb",
+      display: "Adverben",
       color: "#C8AD55",
     },
   ];
@@ -160,27 +150,37 @@
   }
 </script>
 
-<!-- <svelte:window on:resize={resize} /> -->
-<!-- <svelte:window bind:innerWidth={width} /> -->
-
 <div class="container relative" style:max-width={`${maxWidth}px`}>
   <div class="nav">
-    <Wordbuttons
-      {wordTypes}
-      selected={$typeStore}
-      on:click={setWordType}
-      {showButtons}
-    />
+    <div class="flex justify-between px-4"></div>
   </div>
 
   <div class="main" bind:this={mainDiv}>
     {#if clickedWord}
-      <Modal bind:clickedWord />
+      <Modal bind:clickedWord {wordTypes} />
     {/if}
-    <section class="newspaper">
+    <section class="newspaper grid grid-cols-3 relative">
+      <Hamburger open={menuOpen} on:click={() => (menuOpen = !menuOpen)} />
       <div class="newspaper-name">
         <span class="newspaper" data-word-type={"Nomen"}>Ö1-Wissenschaft</span>
       </div>
+
+      {#if menuOpen}
+        <div
+          in:slide
+          out:slide
+          class="fixed top-0 left-0 w-screen h-[100vh] bg-[rgba(255,255,255,0.5)] backdrop-blur-[5px] z-[20] p-4"
+        >
+          <div class="menu_inner max-w-[600px] mx-auto">
+            <Wordbuttons
+              {wordTypes}
+              selected={$typeStore}
+              on:click={setWordType}
+              {showButtons}
+            />
+          </div>
+        </div>
+      {/if}
     </section>
 
     <section class="header">
@@ -225,7 +225,7 @@
 
     <section class="body px-2">
       <div class="body overflow-y-hidden text-lg mb-24">
-        {#each Object.keys(article.body).slice(0, showNParagraphs) as bp, i}
+        {#each Object.keys(article.body) as bp, i}
           {#if /para/.test(bp)}
             <p transition:slide>
               {#each article.body[bp].words as word, j}
@@ -252,15 +252,14 @@
           {/if}
         {/each}
       </div>
-      <!-- <ShowParagraphButtons bind:para={showNParagraphs} /> -->
     </section>
   </div>
 
-  <Controls
+  <!-- <Controls
     showWordButtons={true}
     bind:para={showNParagraphs}
     {nParagraphsBody}
-  />
+  /> -->
 </div>
 
 <style lang="scss">
