@@ -1,17 +1,13 @@
 <script>
   import { createEventDispatcher } from "svelte";
-  import { slide } from "svelte/transition";
+  import { RadioButtonGroup, RadioButton } from "carbon-components-svelte";
   const dispatch = createEventDispatcher();
 
   export let wordTypes;
-  export let selected;
   export let showButtons;
+  import { typeStore } from "../../stores/currentType.js";
 
   let wordTypesFormatted;
-  $: if (wordTypes) {
-    wordTypes = [[wordTypes[0]], wordTypes.slice(1)];
-    wordTypesFormatted = true;
-  }
 
   function handleClick(e, t) {
     if (selected.includes(t.type)) {
@@ -38,14 +34,20 @@
 
     e.target.style.background = "transparent";
   }
+  export let selWordType = "all";
+  $: if (selWordType) {
+    $typeStore = [selWordType];
+  }
 </script>
 
-<div class="modal_wordtypes">
-  {#if wordTypesFormatted}
-    <div class="text-center font-bold text-2xl my-4">
-      Wähle die angezeigten Wortarten
-    </div>
-    <div class="word-types-container flex gap-2">
+<div class="modal_wordtypes flex justify-between border-b-2 pb-4 border-black">
+  {#each wordTypes as t}
+    <RadioButtonGroup name="wordtypes" bind:selected={selWordType}>
+      <RadioButton labelText={t.display} value={t.type} />
+    </RadioButtonGroup>
+  {/each}
+
+  <!-- <div class="word-types-container flex gap-2">
       {#each wordTypes as wType, i}
         {#each wType as t}
           {@const hover = `bg-[${t.color}]`}
@@ -61,8 +63,7 @@
           </button>
         {/each}
       {/each}
-    </div>
-  {/if}
+    </div> -->
 </div>
 
 <style lang="scss">

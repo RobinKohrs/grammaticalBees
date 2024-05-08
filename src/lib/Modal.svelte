@@ -32,7 +32,7 @@
     <div
       use:clickOutside
       on:click_outside={handleClickOutside}
-      class="flex flex-col justify-center p-4 absolute min-h-[200px] rounded-sm top-1/2 -translate-y-1/2 right-0 left-0 max-w-[600px] mx-auto"
+      class="flex flex-col justify-center p-4 absolute min-h-[140px] rounded-sm top-1/2 -translate-y-1/2 right-0 left-0 max-w-[600px] mx-auto"
       style="background-color: rgba(255,255,255, .77);"
     >
       <div class="text-2xl mb-auto text-center underline">

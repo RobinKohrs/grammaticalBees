@@ -57,44 +57,44 @@
     },
   ];
 
-  function setWordType({ detail }) {
-    let t = detail.type;
+  // function setWordType({ detail }) {
+  //   let t = detail.type;
 
-    // cant remove "all"
-    if ($typeStore.length == 1 && $typeStore[0] === "all" && t === "all") {
-      return;
-    }
+  //   // cant remove "all"
+  //   if ($typeStore.length == 1 && $typeStore[0] === "all" && t === "all") {
+  //     return;
+  //   }
 
-    //
-    // logic
-    //
+  //   //
+  //   // logic
+  //   //
 
-    // all cant exist with something else
-    if (t !== "all" && $typeStore[0] === "all") {
-      $typeStore.filter((e) => e !== "all");
-      $typeStore = [t];
-    }
+  //   // all cant exist with something else
+  //   if (t !== "all" && $typeStore[0] === "all") {
+  //     $typeStore.filter((e) => e !== "all");
+  //     $typeStore = [t];
+  //   }
 
-    if (t !== "all" && typeStore[0] !== "all") {
-      if ($typeStore.length == 1 && t === $typeStore[0]) {
-        return;
-      }
+  //   if (t !== "all" && typeStore[0] !== "all") {
+  //     if ($typeStore.length == 1 && t === $typeStore[0]) {
+  //       return;
+  //     }
 
-      if ($typeStore.length == 1 && t !== $typeStore[0]) {
-        $typeStore = [...$typeStore, t];
-      } else if ($typeStore.length > 1) {
-        if ($typeStore.includes(t)) {
-          $typeStore = $typeStore.filter((e) => e !== t);
-        } else {
-          $typeStore = [...$typeStore, t];
-        }
-      }
-    }
+  //     if ($typeStore.length == 1 && t !== $typeStore[0]) {
+  //       $typeStore = [...$typeStore, t];
+  //     } else if ($typeStore.length > 1) {
+  //       if ($typeStore.includes(t)) {
+  //         $typeStore = $typeStore.filter((e) => e !== t);
+  //       } else {
+  //         $typeStore = [...$typeStore, t];
+  //       }
+  //     }
+  //   }
 
-    if (t === "all") {
-      $typeStore = ["all"];
-    }
-  }
+  //   if (t === "all") {
+  //     $typeStore = ["all"];
+  //   }
+  // }
 
   // get all the spans (each word) on the current page
   let spans;
@@ -151,36 +151,17 @@
 </script>
 
 <div class="container relative" style:max-width={`${maxWidth}px`}>
-  <div class="nav">
-    <div class="flex justify-between px-4"></div>
+  <div class="nav my-4">
+    <Wordbuttons {wordTypes} {showButtons} />
   </div>
 
   <div class="main" bind:this={mainDiv}>
     {#if clickedWord}
       <Modal bind:clickedWord {wordTypes} />
     {/if}
-    <section class="newspaper grid grid-cols-3 relative">
-      <Hamburger open={menuOpen} on:click={() => (menuOpen = !menuOpen)} />
-      <div class="newspaper-name">
-        <span class="newspaper" data-word-type={"Nomen"}>Ö1-Wissenschaft</span>
-      </div>
 
-      {#if menuOpen}
-        <div
-          in:slide
-          out:slide
-          class="fixed top-0 left-0 w-screen h-[100vh] bg-[rgba(255,255,255,0.5)] backdrop-blur-[5px] z-[20] p-4"
-        >
-          <div class="menu_inner max-w-[600px] mx-auto">
-            <Wordbuttons
-              {wordTypes}
-              selected={$typeStore}
-              on:click={setWordType}
-              {showButtons}
-            />
-          </div>
-        </div>
-      {/if}
+    <section class="newspaper">
+      <span class="newspaper" data-word-type={"Nomen"}>Ö1-Wissenschaft</span>
     </section>
 
     <section class="header">
@@ -254,12 +235,6 @@
       </div>
     </section>
   </div>
-
-  <!-- <Controls
-    showWordButtons={true}
-    bind:para={showNParagraphs}
-    {nParagraphsBody}
-  /> -->
 </div>
 
 <style lang="scss">
@@ -304,21 +279,8 @@
 
   .main {
     overflow-y: scroll;
-    & .newspaper-name {
-      margin: 1rem;
-      display: flex;
-      justify-content: center;
-
-      & .newspaper {
-        text-align: center;
-        //   white-space: nowrap;
-        font-weight: 600;
-        text-transform: uppercase;
-        //   text-decoration: underline;
-        font-size: 1.2rem;
-        letter-spacing: 0.1ch;
-        font-family: "Playfair Display";
-      }
+    & .newspaper {
+      text-align: center;
     }
 
     & .article-info {
